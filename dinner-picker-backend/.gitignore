@@ -1,0 +1,15 @@
+env
+test.txt
+base.txt
+prod.txt
+.coverage
+.vscode/
+
+**/__pycache__/
+__pycache__/
+*.pyc
+log_file.log
+log_file.log.1
+*.DS_Store
+*.idea/
+

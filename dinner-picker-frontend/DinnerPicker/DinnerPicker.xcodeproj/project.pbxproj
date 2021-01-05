@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0106C4D821140B4F00139CBA /* signup.json in Resources */ = {isa = PBXBuildFile; fileRef = 0106C4D721140B4F00139CBA /* signup.json */; };
+		0106C4DB2114188800139CBA /* access.token in Resources */ = {isa = PBXBuildFile; fileRef = 0106C4DA2114188800139CBA /* access.token */; };
+		0106C4DD211418A400139CBA /* signin.status in Resources */ = {isa = PBXBuildFile; fileRef = 0106C4DC211418A400139CBA /* signin.status */; };
+		01276B2D210C2289003243CE /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01276B2C210C2289003243CE /* MainNavigationController.swift */; };
+		01366A8D2101AD3900424E23 /* SignUpInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01366A8C2101AD3900424E23 /* SignUpInfoViewController.swift */; };
+		0156230320F7E53700AD5963 /* SignupSigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156230220F7E53700AD5963 /* SignupSigninViewController.swift */; };
+		016623BB20F3386600FB8BFA /* IntroPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016623BA20F3386500FB8BFA /* IntroPageViewController.swift */; };
+		0169E7FF20F6AB070048C07A /* IntroSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169E7FE20F6AB070048C07A /* IntroSecondViewController.swift */; };
+		0169E80120F6AC610048C07A /* IntroThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169E80020F6AC610048C07A /* IntroThirdViewController.swift */; };
+		0169E80320F6ADAA0048C07A /* IntroFourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0169E80220F6ADAA0048C07A /* IntroFourthViewController.swift */; };
+		016AFB3720F34CD100A790E5 /* IntroFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016AFB3620F34CD100A790E5 /* IntroFirstViewController.swift */; };
+		018A98E52123564D0065B335 /* GroupInfoPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018A98E42123564D0065B335 /* GroupInfoPage.storyboard */; };
+		018A98E72123568C0065B335 /* GroupInfoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018A98E62123568C0065B335 /* GroupInfoPageViewController.swift */; };
+		0198753A211F672100C2577D /* HistoryPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01987539211F672100C2577D /* HistoryPageTableViewController.swift */; };
+		0198753C211F672F00C2577D /* FriendsPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198753B211F672F00C2577D /* FriendsPageTableViewController.swift */; };
+		01A19A97212251E60036E564 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A19A96212251E60036E564 /* GroupTableViewCell.swift */; };
+		01A288C821006A9200823985 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A288C721006A9200823985 /* Dashboard.storyboard */; };
+		01A288CA2100705500823985 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A288C92100705500823985 /* DashboardViewController.swift */; };
+		01B411BE20F1ABDF0004B523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B411BD20F1ABDF0004B523 /* AppDelegate.swift */; };
+		01B411C320F1ABDF0004B523 /* IntroPageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B411C120F1ABDF0004B523 /* IntroPageView.storyboard */; };
+		01B411C520F1ABE20004B523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B411C420F1ABE20004B523 /* Assets.xcassets */; };
+		01B411C820F1ABE20004B523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B411C620F1ABE20004B523 /* LaunchScreen.storyboard */; };
+		01B9D4C42122C10200A24345 /* Preferences.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B9D4C32122C10200A24345 /* Preferences.storyboard */; };
+		01B9D4C62122C18D00A24345 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9D4C52122C18D00A24345 /* SettingsViewController.swift */; };
+		01B9D4C82122C45C00A24345 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01B9D4C72122C45C00A24345 /* SettingsCell.swift */; };
+		01BE45D52124ACD9009754FE /* JoinGroup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01BE45D42124ACD9009754FE /* JoinGroup.storyboard */; };
+		01BE45D72124ACE4009754FE /* JoinGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BE45D62124ACE4009754FE /* JoinGroupViewController.swift */; };
+		01D63C6A210ED11D001695F1 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D63C69210ED11D001695F1 /* AuthenticationManager.swift */; };
+		01EB15E0211E0E3500E6E9F2 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB15DF211E0E3500E6E9F2 /* GroupViewController.swift */; };
+		01EB15E2211E171300E6E9F2 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB15E1211E171300E6E9F2 /* Group.swift */; };
+		01EB15E4211E18C000E6E9F2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB15E3211E18C000E6E9F2 /* User.swift */; };
+		01EB15E6211E195A00E6E9F2 /* GroupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB15E5211E195A00E6E9F2 /* GroupManager.swift */; };
+		01EB15E9211EA4C800E6E9F2 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EB15E8211EA4C800E6E9F2 /* CreateGroupViewController.swift */; };
+		554CCD30211690C00055D439 /* PreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554CCD2F211690C00055D439 /* PreferencesManager.swift */; };
+		55A84E322103C70100F2972B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5539888A20FC6B6400EC7DBA /* DataManager.swift */; };
+		55BE651A2102F7010044E49A /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55BE65192102F7010044E49A /* Config.plist */; };
+		55EA9F1F21218148007810FA /* PreferenceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EA9F1E21218148007810FA /* PreferenceTableViewCell.swift */; };
+		55F91087211FAC3F00061DC2 /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F91086211FAC3F00061DC2 /* PreferencesViewController.swift */; };
+		55FE5A762103CAEF00906515 /* DinnerPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FE5A752103CAEF00906515 /* DinnerPickerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55FE5A782103CAEF00906515 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01B411B220F1ABDF0004B523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B411B920F1ABDF0004B523;
+			remoteInfo = DinnerPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0106C4D721140B4F00139CBA /* signup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = signup.json; sourceTree = "<group>"; };
+		0106C4DA2114188800139CBA /* access.token */ = {isa = PBXFileReference; lastKnownFileType = text; path = access.token; sourceTree = "<group>"; };
+		0106C4DC211418A400139CBA /* signin.status */ = {isa = PBXFileReference; lastKnownFileType = text; path = signin.status; sourceTree = "<group>"; };
+		01276B2C210C2289003243CE /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		01366A8C2101AD3900424E23 /* SignUpInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInfoViewController.swift; sourceTree = "<group>"; };
+		0156230220F7E53700AD5963 /* SignupSigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupSigninViewController.swift; sourceTree = "<group>"; };
+		016623BA20F3386500FB8BFA /* IntroPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageViewController.swift; sourceTree = "<group>"; };
+		0169E7FE20F6AB070048C07A /* IntroSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroSecondViewController.swift; sourceTree = "<group>"; };
+		0169E80020F6AC610048C07A /* IntroThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroThirdViewController.swift; sourceTree = "<group>"; };
+		0169E80220F6ADAA0048C07A /* IntroFourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFourthViewController.swift; sourceTree = "<group>"; };
+		016AFB3620F34CD100A790E5 /* IntroFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFirstViewController.swift; sourceTree = "<group>"; };
+		018A98E42123564D0065B335 /* GroupInfoPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = GroupInfoPage.storyboard; sourceTree = "<group>"; };
+		018A98E62123568C0065B335 /* GroupInfoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupInfoPageViewController.swift; sourceTree = "<group>"; };
+		01987539211F672100C2577D /* HistoryPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryPageTableViewController.swift; sourceTree = "<group>"; };
+		0198753B211F672F00C2577D /* FriendsPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPageTableViewController.swift; sourceTree = "<group>"; };
+		01A19A96212251E60036E564 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		01A288C721006A9200823985 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		01A288C92100705500823985 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		01B411BA20F1ABDF0004B523 /* DinnerPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnerPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B411BD20F1ABDF0004B523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01B411C220F1ABDF0004B523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/IntroPageView.storyboard; sourceTree = "<group>"; };
+		01B411C420F1ABE20004B523 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01B411C720F1ABE20004B523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01B411C920F1ABE20004B523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01B9D4C32122C10200A24345 /* Preferences.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Preferences.storyboard; sourceTree = "<group>"; };
+		01B9D4C52122C18D00A24345 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		01B9D4C72122C45C00A24345 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		01BE45D42124ACD9009754FE /* JoinGroup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JoinGroup.storyboard; sourceTree = "<group>"; };
+		01BE45D62124ACE4009754FE /* JoinGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinGroupViewController.swift; sourceTree = "<group>"; };
+		01D63C69210ED11D001695F1 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		01EB15DF211E0E3500E6E9F2 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		01EB15E1211E171300E6E9F2 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		01EB15E3211E18C000E6E9F2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		01EB15E5211E195A00E6E9F2 /* GroupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupManager.swift; sourceTree = "<group>"; };
+		01EB15E8211EA4C800E6E9F2 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		5539888A20FC6B6400EC7DBA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		554CCD2F211690C00055D439 /* PreferencesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesManager.swift; sourceTree = "<group>"; };
+		55BE65192102F7010044E49A /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		55EA9F1E21218148007810FA /* PreferenceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceTableViewCell.swift; sourceTree = "<group>"; };
+		55F91086211FAC3F00061DC2 /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		55FE5A732103CAEF00906515 /* DinnerPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DinnerPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55FE5A752103CAEF00906515 /* DinnerPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerPickerTests.swift; sourceTree = "<group>"; };
+		55FE5A772103CAEF00906515 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B411B720F1ABDF0004B523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FE5A702103CAEF00906515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0106C4D621140B2300139CBA /* test_resources */ = {
+			isa = PBXGroup;
+			children = (
+				0106C4D721140B4F00139CBA /* signup.json */,
+			);
+			path = test_resources;
+			sourceTree = "<group>";
+		};
+		0106C4D92114184700139CBA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				0106C4DA2114188800139CBA /* access.token */,
+				0106C4DC211418A400139CBA /* signin.status */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		018A98E3212343AF0065B335 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				01B9D4C32122C10200A24345 /* Preferences.storyboard */,
+				55F91086211FAC3F00061DC2 /* PreferencesViewController.swift */,
+				55EA9F1E21218148007810FA /* PreferenceTableViewCell.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		018A98E821236BAC0065B335 /* GroupInfo */ = {
+			isa = PBXGroup;
+			children = (
+				018A98E42123564D0065B335 /* GroupInfoPage.storyboard */,
+				018A98E62123568C0065B335 /* GroupInfoPageViewController.swift */,
+			);
+			path = GroupInfo;
+			sourceTree = "<group>";
+		};
+		01987536211F66BD00C2577D /* SettingsPages */ = {
+			isa = PBXGroup;
+			children = (
+				018A98E3212343AF0065B335 /* Preferences */,
+				01B9D4C52122C18D00A24345 /* SettingsViewController.swift */,
+				01B9D4C72122C45C00A24345 /* SettingsCell.swift */,
+			);
+			path = SettingsPages;
+			sourceTree = "<group>";
+		};
+		01987537211F66D700C2577D /* FriendsPages */ = {
+			isa = PBXGroup;
+			children = (
+				0198753B211F672F00C2577D /* FriendsPageTableViewController.swift */,
+			);
+			path = FriendsPages;
+			sourceTree = "<group>";
+		};
+		01987538211F66FE00C2577D /* HistoryPages */ = {
+			isa = PBXGroup;
+			children = (
+				01987539211F672100C2577D /* HistoryPageTableViewController.swift */,
+			);
+			path = HistoryPages;
+			sourceTree = "<group>";
+		};
+		01A288C621006A5800823985 /* DashboardPage */ = {
+			isa = PBXGroup;
+			children = (
+				01A288C721006A9200823985 /* Dashboard.storyboard */,
+				01A288C92100705500823985 /* DashboardViewController.swift */,
+			);
+			path = DashboardPage;
+			sourceTree = "<group>";
+		};
+		01B411B120F1ABDF0004B523 = {
+			isa = PBXGroup;
+			children = (
+				01B411BC20F1ABDF0004B523 /* DinnerPicker */,
+				55FE5A742103CAEF00906515 /* DinnerPickerTests */,
+				01B411BB20F1ABDF0004B523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01B411BB20F1ABDF0004B523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B411BA20F1ABDF0004B523 /* DinnerPicker.app */,
+				55FE5A732103CAEF00906515 /* DinnerPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B411BC20F1ABDF0004B523 /* DinnerPicker */ = {
+			isa = PBXGroup;
+			children = (
+				5539888920FC6B0C00EC7DBA /* Core */,
+				01B411D320F1AF590004B523 /* ViewController */,
+				01B411BD20F1ABDF0004B523 /* AppDelegate.swift */,
+				01B411C420F1ABE20004B523 /* Assets.xcassets */,
+				01B411C920F1ABE20004B523 /* Info.plist */,
+				55BE65192102F7010044E49A /* Config.plist */,
+			);
+			path = DinnerPicker;
+			sourceTree = "<group>";
+		};
+		01B411D320F1AF590004B523 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				01987538211F66FE00C2577D /* HistoryPages */,
+				01987537211F66D700C2577D /* FriendsPages */,
+				01987536211F66BD00C2577D /* SettingsPages */,
+				01EB15E7211EA49200E6E9F2 /* GroupPages */,
+				01A288C621006A5800823985 /* DashboardPage */,
+				01B411D420F1AF630004B523 /* IntroSignupPage */,
+				01276B2C210C2289003243CE /* MainNavigationController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		01B411D420F1AF630004B523 /* IntroSignupPage */ = {
+			isa = PBXGroup;
+			children = (
+				01B411C620F1ABE20004B523 /* LaunchScreen.storyboard */,
+				01B411C120F1ABDF0004B523 /* IntroPageView.storyboard */,
+				016623BA20F3386500FB8BFA /* IntroPageViewController.swift */,
+				016AFB3620F34CD100A790E5 /* IntroFirstViewController.swift */,
+				0169E7FE20F6AB070048C07A /* IntroSecondViewController.swift */,
+				0169E80020F6AC610048C07A /* IntroThirdViewController.swift */,
+				0169E80220F6ADAA0048C07A /* IntroFourthViewController.swift */,
+				0156230220F7E53700AD5963 /* SignupSigninViewController.swift */,
+				01366A8C2101AD3900424E23 /* SignUpInfoViewController.swift */,
+			);
+			path = IntroSignupPage;
+			sourceTree = "<group>";
+		};
+		01BE45D32124ACBF009754FE /* JoinGroup */ = {
+			isa = PBXGroup;
+			children = (
+				01BE45D42124ACD9009754FE /* JoinGroup.storyboard */,
+				01BE45D62124ACE4009754FE /* JoinGroupViewController.swift */,
+			);
+			path = JoinGroup;
+			sourceTree = "<group>";
+		};
+		01EB15E7211EA49200E6E9F2 /* GroupPages */ = {
+			isa = PBXGroup;
+			children = (
+				01BE45D32124ACBF009754FE /* JoinGroup */,
+				018A98E821236BAC0065B335 /* GroupInfo */,
+				01EB15DF211E0E3500E6E9F2 /* GroupViewController.swift */,
+				01EB15E8211EA4C800E6E9F2 /* CreateGroupViewController.swift */,
+				01A19A96212251E60036E564 /* GroupTableViewCell.swift */,
+			);
+			path = GroupPages;
+			sourceTree = "<group>";
+		};
+		5539888920FC6B0C00EC7DBA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0106C4D92114184700139CBA /* Authentication */,
+				5539888A20FC6B6400EC7DBA /* DataManager.swift */,
+				01EB15E3211E18C000E6E9F2 /* User.swift */,
+				01D63C69210ED11D001695F1 /* AuthenticationManager.swift */,
+				554CCD2F211690C00055D439 /* PreferencesManager.swift */,
+				01EB15E1211E171300E6E9F2 /* Group.swift */,
+				01EB15E5211E195A00E6E9F2 /* GroupManager.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		55FE5A742103CAEF00906515 /* DinnerPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0106C4D621140B2300139CBA /* test_resources */,
+				55FE5A752103CAEF00906515 /* DinnerPickerTests.swift */,
+				55FE5A772103CAEF00906515 /* Info.plist */,
+			);
+			path = DinnerPickerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B411B920F1ABDF0004B523 /* DinnerPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B411CC20F1ABE20004B523 /* Build configuration list for PBXNativeTarget "DinnerPicker" */;
+			buildPhases = (
+				01B411B620F1ABDF0004B523 /* Sources */,
+				01B411B720F1ABDF0004B523 /* Frameworks */,
+				01B411B820F1ABDF0004B523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinnerPicker;
+			productName = DinnerPicker;
+			productReference = 01B411BA20F1ABDF0004B523 /* DinnerPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55FE5A722103CAEF00906515 /* DinnerPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55FE5A7A2103CAEF00906515 /* Build configuration list for PBXNativeTarget "DinnerPickerTests" */;
+			buildPhases = (
+				55FE5A6F2103CAEF00906515 /* Sources */,
+				55FE5A702103CAEF00906515 /* Frameworks */,
+				55FE5A712103CAEF00906515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55FE5A792103CAEF00906515 /* PBXTargetDependency */,
+			);
+			name = DinnerPickerTests;
+			productName = DinnerPickerTests;
+			productReference = 55FE5A732103CAEF00906515 /* DinnerPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B411B220F1ABDF0004B523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Guowei Yang";
+				TargetAttributes = {
+					01B411B920F1ABDF0004B523 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					55FE5A722103CAEF00906515 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 01B411B920F1ABDF0004B523;
+					};
+				};
+			};
+			buildConfigurationList = 01B411B520F1ABDF0004B523 /* Build configuration list for PBXProject "DinnerPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01B411B120F1ABDF0004B523;
+			productRefGroup = 01B411BB20F1ABDF0004B523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B411B920F1ABDF0004B523 /* DinnerPicker */,
+				55FE5A722103CAEF00906515 /* DinnerPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B411B820F1ABDF0004B523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B411C820F1ABE20004B523 /* LaunchScreen.storyboard in Resources */,
+				55BE651A2102F7010044E49A /* Config.plist in Resources */,
+				01B411C520F1ABE20004B523 /* Assets.xcassets in Resources */,
+				01B411C320F1ABDF0004B523 /* IntroPageView.storyboard in Resources */,
+				018A98E52123564D0065B335 /* GroupInfoPage.storyboard in Resources */,
+				01A288C821006A9200823985 /* Dashboard.storyboard in Resources */,
+				01BE45D52124ACD9009754FE /* JoinGroup.storyboard in Resources */,
+				0106C4DD211418A400139CBA /* signin.status in Resources */,
+				0106C4DB2114188800139CBA /* access.token in Resources */,
+				01B9D4C42122C10200A24345 /* Preferences.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FE5A712103CAEF00906515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0106C4D821140B4F00139CBA /* signup.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B411B620F1ABDF0004B523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A19A97212251E60036E564 /* GroupTableViewCell.swift in Sources */,
+				018A98E72123568C0065B335 /* GroupInfoPageViewController.swift in Sources */,
+				016AFB3720F34CD100A790E5 /* IntroFirstViewController.swift in Sources */,
+				01366A8D2101AD3900424E23 /* SignUpInfoViewController.swift in Sources */,
+				0198753C211F672F00C2577D /* FriendsPageTableViewController.swift in Sources */,
+				01EB15E6211E195A00E6E9F2 /* GroupManager.swift in Sources */,
+				0156230320F7E53700AD5963 /* SignupSigninViewController.swift in Sources */,
+				01EB15E2211E171300E6E9F2 /* Group.swift in Sources */,
+				01EB15E4211E18C000E6E9F2 /* User.swift in Sources */,
+				01B9D4C62122C18D00A24345 /* SettingsViewController.swift in Sources */,
+				0169E80320F6ADAA0048C07A /* IntroFourthViewController.swift in Sources */,
+				55F91087211FAC3F00061DC2 /* PreferencesViewController.swift in Sources */,
+				0169E7FF20F6AB070048C07A /* IntroSecondViewController.swift in Sources */,
+				0198753A211F672100C2577D /* HistoryPageTableViewController.swift in Sources */,
+				01276B2D210C2289003243CE /* MainNavigationController.swift in Sources */,
+				01B9D4C82122C45C00A24345 /* SettingsCell.swift in Sources */,
+				01EB15E0211E0E3500E6E9F2 /* GroupViewController.swift in Sources */,
+				01D63C6A210ED11D001695F1 /* AuthenticationManager.swift in Sources */,
+				016623BB20F3386600FB8BFA /* IntroPageViewController.swift in Sources */,
+				01BE45D72124ACE4009754FE /* JoinGroupViewController.swift in Sources */,
+				55EA9F1F21218148007810FA /* PreferenceTableViewCell.swift in Sources */,
+				0169E80120F6AC610048C07A /* IntroThirdViewController.swift in Sources */,
+				554CCD30211690C00055D439 /* PreferencesManager.swift in Sources */,
+				01EB15E9211EA4C800E6E9F2 /* CreateGroupViewController.swift in Sources */,
+				55A84E322103C70100F2972B /* DataManager.swift in Sources */,
+				01B411BE20F1ABDF0004B523 /* AppDelegate.swift in Sources */,
+				01A288CA2100705500823985 /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55FE5A6F2103CAEF00906515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55FE5A762103CAEF00906515 /* DinnerPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55FE5A792103CAEF00906515 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B411B920F1ABDF0004B523 /* DinnerPicker */;
+			targetProxy = 55FE5A782103CAEF00906515 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01B411C120F1ABDF0004B523 /* IntroPageView.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B411C220F1ABDF0004B523 /* Base */,
+			);
+			name = IntroPageView.storyboard;
+			sourceTree = "<group>";
+		};
+		01B411C620F1ABE20004B523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B411C720F1ABE20004B523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01B411CA20F1ABE20004B523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		01B411CB20F1ABE20004B523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B411CD20F1ABE20004B523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHKQZHQ92R;
+				INFOPLIST_FILE = DinnerPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = framiere.DinnerPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		01B411CE20F1ABE20004B523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHKQZHQ92R;
+				INFOPLIST_FILE = DinnerPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = framiere.DinnerPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		55FE5A7B2103CAEF00906515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DinnerPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.oshaw.DinnerPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinnerPicker.app/DinnerPicker";
+			};
+			name = Debug;
+		};
+		55FE5A7C2103CAEF00906515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DinnerPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.oshaw.DinnerPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DinnerPicker.app/DinnerPicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B411B520F1ABDF0004B523 /* Build configuration list for PBXProject "DinnerPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B411CA20F1ABE20004B523 /* Debug */,
+				01B411CB20F1ABE20004B523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B411CC20F1ABE20004B523 /* Build configuration list for PBXNativeTarget "DinnerPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B411CD20F1ABE20004B523 /* Debug */,
+				01B411CE20F1ABE20004B523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55FE5A7A2103CAEF00906515 /* Build configuration list for PBXNativeTarget "DinnerPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55FE5A7B2103CAEF00906515 /* Debug */,
+				55FE5A7C2103CAEF00906515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B411B220F1ABDF0004B523 /* Project object */;
+}

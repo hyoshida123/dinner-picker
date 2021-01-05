@@ -1,0 +1,7 @@
+NAME = 'name'
+ID = 'id'
+MEETING_TIME = 'meeting_time'
+FOOD_SPICY = 'food_spicy'
+FOOD_VEGAN = 'food_vegan'
+FOOD_VEGETARIAN = 'food_vegetarian'
+PLACE_LOUD = 'place_loud'

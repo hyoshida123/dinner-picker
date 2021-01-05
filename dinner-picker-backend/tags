@@ -1,0 +1,679 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESS_TOKEN	backendV1/api/constants/query_param_constants.py	/^ACCESS_TOKEN = "access_token"$/;"	v
+ACCESS_TOKEN	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.constants.query_param_constants import USERNAME, ACCESS_TOKEN$/;"	i
+ACCESS_TOKEN	backendV1/api/endpoints/group/group_endpoint.py	/^from api.constants.query_param_constants import ACCESS_TOKEN$/;"	i
+ACCESS_TOKEN	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.constants.query_param_constants import ACCESS_TOKEN$/;"	i
+ACCESS_TOKEN	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.constants.query_param_constants import ACCESS_TOKEN, GROUPID, API_TYPE, SORTING_OPTION, MAX_NUMBER$/;"	i
+ACCESS_TOKEN	backendV1/api/util/decorators.py	/^from api.constants.query_param_constants import ACCESS_TOKEN$/;"	i
+ALLOWED_HOSTS	backendV1/project/settings/base.py	/^ALLOWED_HOSTS = []$/;"	v
+APIDatabaseDeleteFailedException	backendV1/api/exceptions/api_database_exceptions.py	/^class APIDatabaseDeleteFailedException(APIException):$/;"	c
+APIDatabaseDeleteFailedException	backendV1/api/managers/user_activity/group/group_manager.py	/^    APIDatabaseDeleteFailedException$/;"	i
+APIDatabaseDeleteFailedException	backendV1/api/model_handler/user_model_handler.py	/^    APIDatabaseDeleteFailedException$/;"	i
+APIDatabaseRetrieveFailedException	backendV1/api/exceptions/api_database_exceptions.py	/^class APIDatabaseRetrieveFailedException(APIException):$/;"	c
+APIDatabaseRetrieveFailedException	backendV1/api/managers/user_activity/group/group_manager.py	/^    APIDatabaseDeleteFailedException$/;"	i
+APIDatabaseRetrieveFailedException	backendV1/api/model_handler/group_model_handler.py	/^    import APIDatabaseRetrieveFailedException$/;"	i
+APIDatabaseRetrieveFailedException	backendV1/api/model_handler/preference_model_handler.py	/^    import APIDatabaseRetrieveFailedException$/;"	i
+APIDatabaseRetrieveFailedException	backendV1/api/model_handler/user_model_handler.py	/^    APIDatabaseDeleteFailedException$/;"	i
+APIDatabaseSaveFailedException	backendV1/api/exceptions/api_database_exceptions.py	/^class APIDatabaseSaveFailedException(APIException):$/;"	c
+APIDatabaseSaveFailedException	backendV1/api/model_handler/model_handler.py	/^    APIDatabaseUpdateFailedException$/;"	i
+APIDatabaseUpdateFailedException	backendV1/api/exceptions/api_database_exceptions.py	/^class APIDatabaseUpdateFailedException(APIException):$/;"	c
+APIDatabaseUpdateFailedException	backendV1/api/managers/user_activity/group/group_manager.py	/^    APIDatabaseDeleteFailedException$/;"	i
+APIDatabaseUpdateFailedException	backendV1/api/model_handler/model_handler.py	/^    APIDatabaseUpdateFailedException$/;"	i
+APIDatabaseUpdateFailedException	backendV1/api/model_handler/user_model_handler.py	/^    APIDatabaseDeleteFailedException$/;"	i
+APIException	backendV1/api/exceptions/api_auth_exceptions.py	/^from rest_framework.exceptions import APIException$/;"	i
+APIException	backendV1/api/exceptions/api_database_exceptions.py	/^from rest_framework.exceptions import APIException$/;"	i
+APIException	backendV1/api/util/decorators.py	/^from rest_framework.exceptions import APIException$/;"	i
+APIInvalidateAccessTokenException	backendV1/api/exceptions/api_auth_exceptions.py	/^class APIInvalidateAccessTokenException(APIException):$/;"	c
+APIInvalidateAccessTokenException	backendV1/api/util/decorators.py	/^from api.exceptions.api_auth_exceptions import APIInvalidateAccessTokenException$/;"	i
+APIManagerFactory	backendV1/api/factories/api_manager_factory.py	/^class APIManagerFactory:$/;"	c
+APIManagerFactory	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.factories.api_manager_factory import APIManagerFactory$/;"	i
+APIType	backendV1/api/constants/enum_constants.py	/^class APIType(CustomEnum):$/;"	c
+APIType	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.constants.enum_constants import APIType$/;"	i
+APIType	backendV1/api/factories/api_manager_factory.py	/^from api.constants.enum_constants import APIType$/;"	i
+APIType	backendV1/api/factories/converter_factory.py	/^from api.constants.enum_constants import APIType$/;"	i
+APIType	backendV1/api/factories/dto_factory.py	/^from api.constants.enum_constants import APIType$/;"	i
+APIType	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.constants.enum_constants import APIType, SortingOption$/;"	i
+APIView	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from rest_framework.views import APIView$/;"	i
+APIView	backendV1/api/endpoints/group/group_endpoint.py	/^from rest_framework.views import APIView$/;"	i
+APIView	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from rest_framework.views import APIView$/;"	i
+APIView	backendV1/api/endpoints/snippet_views.py	/^from rest_framework.views import APIView$/;"	i
+APIView	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^from rest_framework.views import APIView$/;"	i
+APIView	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from rest_framework.views import APIView$/;"	i
+API_TYPE	backendV1/api/constants/query_param_constants.py	/^API_TYPE = "api_type"$/;"	v
+API_TYPE	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.constants.query_param_constants import ACCESS_TOKEN, GROUPID, API_TYPE, SORTING_OPTION, MAX_NUMBER$/;"	i
+AUTH_PASSWORD_VALIDATORS	backendV1/project/settings/base.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+ApiConfig	backendV1/api/apps.py	/^class ApiConfig(AppConfig):$/;"	c
+AppConfig	backendV1/api/apps.py	/^from django.apps import AppConfig$/;"	i
+AuthenticationManager	backendV1/api/managers/authentication/authentication_manager.py	/^class AuthenticationManager:$/;"	c
+BASE_DIR	backendV1/project/settings/base.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	v
+CUSTOMIZED_APPS	backendV1/project/settings/base.py	/^CUSTOMIZED_APPS = [$/;"	v
+Converter	backendV1/api/converter/converter.py	/^class Converter:$/;"	c
+Converter	backendV1/api/converter/yelp_data_converter.py	/^from .converter import Converter$/;"	i
+ConverterFactory	backendV1/api/factories/converter_factory.py	/^class ConverterFactory:$/;"	c
+ConverterFactory	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.factories.converter_factory import ConverterFactory$/;"	i
+CoreAlgorithm	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.recommendation_algorithm.core_algorithm import CoreAlgorithm$/;"	i
+CoreAlgorithm	backendV1/api/recommendation_algorithm/core_algorithm.py	/^class CoreAlgorithm:$/;"	c
+CreateGroup	backendV1/api/endpoints/group/group_endpoint.py	/^class CreateGroup(APIView):$/;"	c
+CustomEnum	backendV1/api/constants/enum_constants.py	/^class CustomEnum(Enum):$/;"	c
+DATABASES	backendV1/project/settings/base.py	/^DATABASES = {$/;"	v
+DEBUG	backendV1/project/settings/base.py	/^DEBUG = True$/;"	v
+DEBUG	backendV1/project/settings/prod.py	/^DEBUG = False/;"	v
+DTO	backendV1/api/dto/external_api_DTO/yelp_restaurant_dto.py	/^from api.dto.parent_DTO.DTO import DTO$/;"	i
+DTO	backendV1/api/dto/parent_DTO/DTO.py	/^class DTO:$/;"	c
+DTO	backendV1/api/dto/parent_DTO/requestDTO.py	/^from api.dto.parent_DTO.DTO import DTO$/;"	i
+DTO	backendV1/api/dto/parent_DTO/responseDTO.py	/^from api.dto.parent_DTO.DTO import DTO$/;"	i
+DTO	backendV1/api/dto/settings_DTO/preference_settings_DTO.py	/^from api.dto.parent_DTO.DTO import DTO$/;"	i
+DTOFactory	backendV1/api/factories/dto_factory.py	/^class DTOFactory:$/;"	c
+DTOFactory	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.factories.dto_factory import DTOFactory$/;"	i
+DTOManager	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.managers.dto.dto_manager import DTOManager$/;"	i
+DTOManager	backendV1/api/endpoints/group/group_endpoint.py	/^from api.managers.dto.dto_manager import DTOManager$/;"	i
+DTOManager	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.managers.dto.dto_manager import DTOManager$/;"	i
+DTOManager	backendV1/api/managers/dto/dto_manager.py	/^class DTOManager:$/;"	c
+DTOManager	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.managers.dto.dto_manager import DTOManager$/;"	i
+DeprecatedClassWrapper	backendV1/api/util/decorators.py	/^        class DeprecatedClassWrapper:$/;"	c	function:deprecated_class.deprecated_class_wrapper
+Enum	backendV1/api/constants/enum_constants.py	/^from enum import Enum$/;"	i
+FOOD_SPICY	backendV1/api/constants/body_field_constants.py	/^FOOD_SPICY = 'food_spicy'$/;"	v
+FOOD_SPICY	backendV1/api/dto/settings_DTO/preference_settings_DTO.py	/^from api.constants.body_field_constants import ID, FOOD_VEGETARIAN, FOOD_VEGAN, FOOD_SPICY, PLACE_LOUD$/;"	i
+FOOD_SPICY	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.constants.body_field_constants import FOOD_SPICY, FOOD_VEGAN, FOOD_VEGETARIAN, PLACE_LOUD$/;"	i
+FOOD_VEGAN	backendV1/api/constants/body_field_constants.py	/^FOOD_VEGAN = 'food_vegan'$/;"	v
+FOOD_VEGAN	backendV1/api/dto/settings_DTO/preference_settings_DTO.py	/^from api.constants.body_field_constants import ID, FOOD_VEGETARIAN, FOOD_VEGAN, FOOD_SPICY, PLACE_LOUD$/;"	i
+FOOD_VEGAN	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.constants.body_field_constants import FOOD_SPICY, FOOD_VEGAN, FOOD_VEGETARIAN, PLACE_LOUD$/;"	i
+FOOD_VEGETARIAN	backendV1/api/constants/body_field_constants.py	/^FOOD_VEGETARIAN = 'food_vegetarian'$/;"	v
+FOOD_VEGETARIAN	backendV1/api/dto/settings_DTO/preference_settings_DTO.py	/^from api.constants.body_field_constants import ID, FOOD_VEGETARIAN, FOOD_VEGAN, FOOD_SPICY, PLACE_LOUD$/;"	i
+FOOD_VEGETARIAN	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.constants.body_field_constants import FOOD_SPICY, FOOD_VEGAN, FOOD_VEGETARIAN, PLACE_LOUD$/;"	i
+FoodCategoryDisliked	backendV1/api/models/__init__.py	/^from api.models.preference.food_category_model import FoodCategoryDisliked$/;"	i
+FoodCategoryDisliked	backendV1/api/models/preference/food_category_model.py	/^class FoodCategoryDisliked(models.Model):$/;"	c
+FoodCategoryLiked	backendV1/api/models/__init__.py	/^from api.models.preference.food_category_model import FoodCategoryLiked$/;"	i
+FoodCategoryLiked	backendV1/api/models/preference/food_category_model.py	/^class FoodCategoryLiked(models.Model):$/;"	c
+GROUPID	backendV1/api/constants/query_param_constants.py	/^GROUPID = "groupid"$/;"	v
+GROUPID	backendV1/api/endpoints/group/group_endpoint.py	/^from api.constants.query_param_constants import GROUPID$/;"	i
+GROUPID	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.constants.query_param_constants import ACCESS_TOKEN, GROUPID, API_TYPE, SORTING_OPTION, MAX_NUMBER$/;"	i
+GetGroupsByUsername	backendV1/api/endpoints/group/group_endpoint.py	/^class GetGroupsByUsername(APIView):$/;"	c
+GetUserList	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^class GetUserList(APIView):$/;"	c
+Group	backendV1/api/model_handler/group_model_handler.py	/^from api.models.group.group_model import Group$/;"	i
+Group	backendV1/api/models/__init__.py	/^from api.models.group.group_model import Group/;"	i
+Group	backendV1/api/models/group/group_model.py	/^class Group(models.Model):$/;"	c
+Group	backendV1/api/models/group/group_serializer.py	/^from .group_model import Group$/;"	i
+Group	backendV1/api/models/user_account/user_account_model.py	/^from api.models.group.group_model import Group$/;"	i
+GroupManager	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.managers.user_activity.group.group_manager import GroupManager$/;"	i
+GroupManager	backendV1/api/endpoints/group/group_endpoint.py	/^from api.managers.user_activity.group.group_manager import GroupManager$/;"	i
+GroupManager	backendV1/api/managers/user_activity/group/group_manager.py	/^class GroupManager:$/;"	c
+GroupModelHandler	backendV1/api/managers/model_manager/model_creator.py	/^from api.model_handler.group_model_handler import GroupModelHandler$/;"	i
+GroupModelHandler	backendV1/api/managers/user_activity/group/group_manager.py	/^from api.model_handler.group_model_handler import GroupModelHandler$/;"	i
+GroupModelHandler	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.model_handler.group_model_handler import GroupModelHandler$/;"	i
+GroupModelHandler	backendV1/api/model_handler/group_model_handler.py	/^class GroupModelHandler(ModelHandler):$/;"	c
+GroupSerializer	backendV1/api/models/group/group_serializer.py	/^class GroupSerializer(serializers.ModelSerializer):$/;"	c
+HARDCODE	backendV1/api/constants/enum_constants.py	/^    HARDCODE = "hardcode"$/;"	v	class:APIType
+Http404	backendV1/api/endpoints/snippet_views.py	/^from django.http import Http404$/;"	i
+ID	backendV1/api/constants/body_field_constants.py	/^ID = 'id'$/;"	v
+ID	backendV1/api/dto/settings_DTO/preference_settings_DTO.py	/^from api.constants.body_field_constants import ID, FOOD_VEGETARIAN, FOOD_VEGAN, FOOD_SPICY, PLACE_LOUD$/;"	i
+ID	backendV1/api/endpoints/group/group_endpoint.py	/^from api.constants.body_field_constants import NAME, ID, MEETING_TIME$/;"	i
+INSTALLED_APPS	backendV1/project/settings/base.py	/^INSTALLED_APPS = PREREQ_APPS + THIRD_PARTY_APPS + CUSTOMIZED_APPS$/;"	v
+ImproperlyConfigured	backendV1/project/settings/util.py	/^from django.core.exceptions import ImproperlyConfigured$/;"	i
+JoinGroup	backendV1/api/endpoints/group/group_endpoint.py	/^class JoinGroup(APIView):$/;"	c
+LANGUAGE_CHOICES	backendV1/api/models/snippet/models.py	/^LANGUAGE_CHOICES = sorted([(item[1][0], item[0]) for item in LEXERS])$/;"	v
+LANGUAGE_CHOICES	backendV1/api/models/snippet/serializer.py	/^from .models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES$/;"	i
+LANGUAGE_CODE	backendV1/project/settings/base.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+LEXERS	backendV1/api/models/snippet/models.py	/^LEXERS = [item for item in get_all_lexers() if item[1]]$/;"	v
+LeaveGroup	backendV1/api/endpoints/group/group_endpoint.py	/^class LeaveGroup(APIView):$/;"	c
+ListAllGroups	backendV1/api/endpoints/group/group_endpoint.py	/^class ListAllGroups(APIView):$/;"	c
+ListUsersInGroup	backendV1/api/endpoints/group/group_endpoint.py	/^class ListUsersInGroup(APIView):$/;"	c
+Logger	backendV1/api/managers/dto/dto_manager.py	/^from api.third_party_libraries.logger.singleton_logger import Logger$/;"	i
+Logger	backendV1/api/tests/test_logger.py	/^from api.third_party_libraries.logger.singleton_logger import Logger$/;"	i
+Logger	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^class Logger:$/;"	c
+Logger	backendV1/api/util/decorators.py	/^from api.third_party_libraries.logger.singleton_logger import Logger$/;"	i
+Logger	backendV1/api/util/dto_util_functions.py	/^from api.third_party_libraries.logger.singleton_logger import Logger$/;"	i
+Logger	backendV1/api/util/util_functions.py	/^from api.third_party_libraries.logger.singleton_logger import Logger$/;"	i
+MAX_NUMBER	backendV1/api/constants/query_param_constants.py	/^MAX_NUMBER = 'max_number'/;"	v
+MAX_NUMBER	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.constants.query_param_constants import ACCESS_TOKEN, GROUPID, API_TYPE, SORTING_OPTION, MAX_NUMBER$/;"	i
+MEETING_TIME	backendV1/api/constants/body_field_constants.py	/^MEETING_TIME = 'meeting_time'$/;"	v
+MEETING_TIME	backendV1/api/endpoints/group/group_endpoint.py	/^from api.constants.body_field_constants import NAME, ID, MEETING_TIME$/;"	i
+MIDDLEWARE	backendV1/project/settings/base.py	/^MIDDLEWARE = [$/;"	v
+Meta	backendV1/api/models/group/group_model.py	/^    class Meta:$/;"	c	class:Group
+Meta	backendV1/api/models/group/group_serializer.py	/^    class Meta:$/;"	c	class:GroupSerializer
+Meta	backendV1/api/models/preference/preference_serializer.py	/^    class Meta:$/;"	c	class:PreferenceSettingsSerializer
+Meta	backendV1/api/models/snippet/models.py	/^    class Meta:$/;"	c	class:Snippet
+Meta	backendV1/api/models/user_account/user_account_serializer.py	/^    class Meta:$/;"	c	class:UserAccountSerializer
+Migration	backendV1/api/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+Model	backendV1/api/model_handler/model_handler.py	/^from django.db.models import Model$/;"	i
+ModelCreator	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.managers.model_manager.model_creator import ModelCreator$/;"	i
+ModelCreator	backendV1/api/endpoints/group/group_endpoint.py	/^from api.managers.model_manager.model_creator import ModelCreator$/;"	i
+ModelCreator	backendV1/api/managers/model_manager/model_creator.py	/^class ModelCreator:$/;"	c
+ModelCreator	backendV1/api/managers/user_activity/group/group_manager.py	/^from api.managers.model_manager.model_creator import ModelCreator$/;"	i
+ModelHandler	backendV1/api/model_handler/group_model_handler.py	/^from api.model_handler.model_handler import ModelHandler$/;"	i
+ModelHandler	backendV1/api/model_handler/model_handler.py	/^class ModelHandler:$/;"	c
+ModelHandler	backendV1/api/model_handler/preference_model_handler.py	/^from api.model_handler.model_handler import ModelHandler$/;"	i
+ModelHandler	backendV1/api/model_handler/user_model_handler.py	/^from api.model_handler.model_handler import ModelHandler$/;"	i
+NAME	backendV1/api/constants/body_field_constants.py	/^NAME = 'name'$/;"	v
+NAME	backendV1/api/endpoints/group/group_endpoint.py	/^from api.constants.body_field_constants import NAME, ID, MEETING_TIME$/;"	i
+PLACE_LOUD	backendV1/api/constants/body_field_constants.py	/^PLACE_LOUD = 'place_loud'/;"	v
+PLACE_LOUD	backendV1/api/dto/settings_DTO/preference_settings_DTO.py	/^from api.constants.body_field_constants import ID, FOOD_VEGETARIAN, FOOD_VEGAN, FOOD_SPICY, PLACE_LOUD$/;"	i
+PLACE_LOUD	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.constants.body_field_constants import FOOD_SPICY, FOOD_VEGAN, FOOD_VEGETARIAN, PLACE_LOUD$/;"	i
+PREFERENCE_CHOICES	backendV1/api/models/preference/preference_model.py	/^    PREFERENCE_CHOICES = ($/;"	v	class:Preferences
+PREREQ_APPS	backendV1/project/settings/base.py	/^PREREQ_APPS = [$/;"	v
+PreferenceManager	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.managers.settings.preference_manager import PreferenceManager$/;"	i
+PreferenceManager	backendV1/api/managers/settings/preference_manager.py	/^class PreferenceManager:$/;"	c
+PreferenceModelHandler	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.model_handler.preference_model_handler import PreferenceModelHandler$/;"	i
+PreferenceModelHandler	backendV1/api/managers/model_manager/model_creator.py	/^from api.model_handler.preference_model_handler import PreferenceModelHandler$/;"	i
+PreferenceModelHandler	backendV1/api/managers/settings/preference_manager.py	/^from api.model_handler.preference_model_handler import PreferenceModelHandler$/;"	i
+PreferenceModelHandler	backendV1/api/model_handler/preference_model_handler.py	/^class PreferenceModelHandler(ModelHandler):$/;"	c
+PreferenceSettings	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^class PreferenceSettings(APIView):$/;"	c
+PreferenceSettingsDTO	backendV1/api/dto/settings_DTO/preference_settings_DTO.py	/^class PreferenceSettingsDTO(DTO):$/;"	c
+PreferenceSettingsDTO	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.dto.settings_DTO.preference_settings_DTO import PreferenceSettingsDTO$/;"	i
+PreferenceSettingsDTO	backendV1/api/endpoints/group/group_endpoint.py	/^from api.dto.settings_DTO.preference_settings_DTO import PreferenceSettingsDTO$/;"	i
+PreferenceSettingsDTO	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.dto.settings_DTO.preference_settings_DTO import PreferenceSettingsDTO$/;"	i
+PreferenceSettingsSerializer	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.models.preference.preference_serializer import PreferenceSettingsSerializer$/;"	i
+PreferenceSettingsSerializer	backendV1/api/models/preference/preference_serializer.py	/^class PreferenceSettingsSerializer(serializers.ModelSerializer):$/;"	c
+Preferences	backendV1/api/model_handler/preference_model_handler.py	/^from api.models.preference.preference_model import Preferences$/;"	i
+Preferences	backendV1/api/models/__init__.py	/^from api.models.preference.preference_model import Preferences$/;"	i
+Preferences	backendV1/api/models/preference/food_category_model.py	/^from api.models.preference.preference_model import Preferences$/;"	i
+Preferences	backendV1/api/models/preference/preference_model.py	/^class Preferences(models.Model):$/;"	c
+Preferences	backendV1/api/models/preference/preference_serializer.py	/^from .preference_model import Preferences$/;"	i
+Preferences	backendV1/api/models/user_account/user_account_model.py	/^from api.models.preference.preference_model import Preferences$/;"	i
+QuerySet	backendV1/api/managers/dto/dto_manager.py	/^from django.db.models.query import QuerySet$/;"	i
+QuerySet	backendV1/api/util/dto_util_functions.py	/^from django.db.models.query import QuerySet$/;"	i
+ROOT_URLCONF	backendV1/project/settings/base.py	/^ROOT_URLCONF = 'project.urls'$/;"	v
+RequestCreateGroupDTO	backendV1/api/dto/group_DTO/request_create_group_dto.py	/^class RequestCreateGroupDTO(RequestDTO):$/;"	c
+RequestCreateGroupDTO	backendV1/api/endpoints/group/group_endpoint.py	/^from api.dto.group_DTO.request_create_group_dto import RequestCreateGroupDTO$/;"	i
+RequestDTO	backendV1/api/dto/group_DTO/request_create_group_dto.py	/^from api.dto.parent_DTO.requestDTO import RequestDTO$/;"	i
+RequestDTO	backendV1/api/dto/group_DTO/request_join_group_DTO.py	/^from api.dto.parent_DTO.requestDTO import RequestDTO$/;"	i
+RequestDTO	backendV1/api/dto/parent_DTO/requestDTO.py	/^class RequestDTO(DTO):$/;"	c
+RequestJoinGroupDTO	backendV1/api/dto/group_DTO/request_join_group_DTO.py	/^class RequestJoinGroupDTO(RequestDTO):$/;"	c
+RequestJoinGroupDTO	backendV1/api/endpoints/group/group_endpoint.py	/^from api.dto.group_DTO.request_join_group_DTO import RequestJoinGroupDTO$/;"	i
+Response	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from rest_framework.response import Response$/;"	i
+Response	backendV1/api/endpoints/group/group_endpoint.py	/^from rest_framework.response import Response$/;"	i
+Response	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from rest_framework.response import Response$/;"	i
+Response	backendV1/api/endpoints/snippet_views.py	/^from rest_framework.response import Response$/;"	i
+Response	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^from rest_framework.response import Response$/;"	i
+Response	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from rest_framework.response import Response$/;"	i
+ResponseDTO	backendV1/api/dto/group_DTO/response_group_dto.py	/^from api.dto.parent_DTO.responseDTO import ResponseDTO$/;"	i
+ResponseDTO	backendV1/api/dto/parent_DTO/responseDTO.py	/^class ResponseDTO(DTO):$/;"	c
+ResponseDTO	backendV1/api/dto/success_failure_DTO/response_success_DTO.py	/^from api.dto.parent_DTO.responseDTO import ResponseDTO$/;"	i
+ResponseDTO	backendV1/api/dto/suggestion_DTO/response_restaurant_dto.py	/^from api.dto.parent_DTO.responseDTO import ResponseDTO$/;"	i
+ResponseDTO	backendV1/api/dto/user_detail_dto/response_user_detail_dto.py	/^from api.dto.parent_DTO.responseDTO import ResponseDTO$/;"	i
+ResponseDTO	backendV1/api/dto/user_detail_dto/response_user_dto.py	/^from api.dto.parent_DTO.responseDTO import ResponseDTO$/;"	i
+ResponseGroupDTO	backendV1/api/dto/group_DTO/response_group_detail_dto.py	/^from api.dto.group_DTO.response_group_dto import ResponseGroupDTO$/;"	i
+ResponseGroupDTO	backendV1/api/dto/group_DTO/response_group_dto.py	/^class ResponseGroupDTO(ResponseDTO):$/;"	c
+ResponseGroupDTO	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.dto.group_DTO.response_group_dto import ResponseGroupDTO$/;"	i
+ResponseGroupDTO	backendV1/api/endpoints/group/group_endpoint.py	/^from api.dto.group_DTO.response_group_dto import ResponseGroupDTO$/;"	i
+ResponseGroupDTO	backendV1/api/managers/user_activity/group/group_manager.py	/^from api.dto.group_DTO.response_group_dto import ResponseGroupDTO$/;"	i
+ResponseGroupDetailDTO	backendV1/api/dto/group_DTO/response_group_detail_dto.py	/^class ResponseGroupDetailDTO(ResponseGroupDTO):$/;"	c
+ResponseGroupDetailDTO	backendV1/api/endpoints/group/group_endpoint.py	/^from api.dto.group_DTO.response_group_detail_dto import ResponseGroupDetailDTO$/;"	i
+ResponseRestaurantDTO	backendV1/api/dto/suggestion_DTO/response_restaurant_dto.py	/^class ResponseRestaurantDTO(ResponseDTO):$/;"	c
+ResponseRestaurantDTO	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.dto.suggestion_DTO.response_restaurant_dto import ResponseRestaurantDTO$/;"	i
+ResponseSuccessDTO	backendV1/api/dto/success_failure_DTO/response_success_DTO.py	/^class ResponseSuccessDTO(ResponseDTO):$/;"	c
+ResponseSuccessDTO	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.dto.success_failure_DTO.response_success_DTO import ResponseSuccessDTO$/;"	i
+ResponseSuccessDTO	backendV1/api/endpoints/group/group_endpoint.py	/^from api.dto.success_failure_DTO.response_success_DTO import ResponseSuccessDTO$/;"	i
+ResponseUserDTO	backendV1/api/dto/user_detail_dto/response_user_dto.py	/^class ResponseUserDTO(ResponseDTO):$/;"	c
+ResponseUserDTO	backendV1/api/endpoints/group/group_endpoint.py	/^from api.dto.user_detail_dto.response_user_dto import ResponseUserDTO$/;"	i
+ResponseUserDetailDTO	backendV1/api/dto/user_detail_dto/response_user_detail_dto.py	/^class ResponseUserDetailDTO(ResponseDTO):$/;"	c
+ResponseUserDetailDTO	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.dto.user_detail_dto.response_user_detail_dto import ResponseUserDetailDTO$/;"	i
+ResponseUserDetailDTO	backendV1/api/endpoints/group/group_endpoint.py	/^from api.dto.user_detail_dto.response_user_detail_dto import ResponseUserDetailDTO$/;"	i
+SCORE	backendV1/api/constants/enum_constants.py	/^    SCORE = 'score'/;"	v	class:SortingOption
+SECRET_KEY	backendV1/project/settings/base.py	/^SECRET_KEY = '2pr(i79wb-53#y$ix#@*-t5d79mvft8&uujq6wl!sy&z8f%ptf'$/;"	v
+SORTING_OPTION	backendV1/api/constants/query_param_constants.py	/^SORTING_OPTION = 'sorting_option'$/;"	v
+SORTING_OPTION	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.constants.query_param_constants import ACCESS_TOKEN, GROUPID, API_TYPE, SORTING_OPTION, MAX_NUMBER$/;"	i
+STATIC_URL	backendV1/project/settings/base.py	/^STATIC_URL = '\/static\/'$/;"	v
+STYLE_CHOICES	backendV1/api/models/snippet/models.py	/^STYLE_CHOICES = sorted((item, item) for item in get_all_styles())$/;"	v
+STYLE_CHOICES	backendV1/api/models/snippet/serializer.py	/^from .models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES$/;"	i
+ShowUserDetails	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^class ShowUserDetails(APIView):$/;"	c
+Signup	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^class Signup(APIView):$/;"	c
+Snippet	backendV1/api/admin.py	/^from .models.snippet.models import Snippet$/;"	i
+Snippet	backendV1/api/endpoints/snippet_views.py	/^from ..models.snippet.models import Snippet$/;"	i
+Snippet	backendV1/api/models/__init__.py	/^from api.models.snippet.models import Snippet$/;"	i
+Snippet	backendV1/api/models/snippet/models.py	/^class Snippet(models.Model):$/;"	c
+Snippet	backendV1/api/models/snippet/serializer.py	/^from .models import Snippet, LANGUAGE_CHOICES, STYLE_CHOICES$/;"	i
+SnippetAdmin	backendV1/api/admin.py	/^class SnippetAdmin(admin.ModelAdmin):$/;"	c
+SnippetDetail	backendV1/api/endpoints/snippet_views.py	/^class SnippetDetail(APIView):$/;"	c
+SnippetList	backendV1/api/endpoints/snippet_views.py	/^class SnippetList(APIView):$/;"	c
+SnippetSerializer	backendV1/api/endpoints/snippet_views.py	/^from ..models.snippet.serializer import SnippetSerializer$/;"	i
+SnippetSerializer	backendV1/api/models/snippet/serializer.py	/^class SnippetSerializer(serializers.Serializer):$/;"	c
+SortingManager	backendV1/api/managers/sort/sorting_manager.py	/^class SortingManager:$/;"	c
+SortingManager	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.managers.sort.sorting_manager import SortingManager$/;"	i
+SortingOption	backendV1/api/constants/enum_constants.py	/^class SortingOption(CustomEnum):$/;"	c
+SortingOption	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.constants.enum_constants import APIType, SortingOption$/;"	i
+SortingOption	backendV1/api/models/option/suggestion_option.py	/^from api.constants.enum_constants import SortingOption$/;"	i
+Suggest	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^class Suggest(APIView):$/;"	c
+SuggestRestaurants	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^class SuggestRestaurants(APIView):$/;"	c
+SuggestionManager	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.managers.user_activity.suggestion.suggestion_manager import SuggestionManager$/;"	i
+SuggestionManager	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^class SuggestionManager:$/;"	c
+SuggestionOption	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.models.option.suggestion_option import SuggestionOption$/;"	i
+SuggestionOption	backendV1/api/models/option/suggestion_option.py	/^class SuggestionOption:$/;"	c
+TEMPLATES	backendV1/project/settings/base.py	/^TEMPLATES = [$/;"	v
+THIRD_PARTY_APPS	backendV1/project/settings/base.py	/^THIRD_PARTY_APPS = [$/;"	v
+TIME_ZONE	backendV1/project/settings/base.py	/^TIME_ZONE = 'UTC'$/;"	v
+TestCase	backendV1/api/tests/test_logger.py	/^from django.test import TestCase$/;"	i
+TestCase	backendV1/api/tests/tests.py	/^from django.test import TestCase$/;"	i
+TestLogger	backendV1/api/tests/test_logger.py	/^class TestLogger(TestCase):$/;"	c
+USERNAME	backendV1/api/constants/query_param_constants.py	/^USERNAME = "username"$/;"	v
+USERNAME	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.constants.query_param_constants import USERNAME, ACCESS_TOKEN$/;"	i
+USERS	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^USERS = [$/;"	v
+USE_I18N	backendV1/project/settings/base.py	/^USE_I18N = True$/;"	v
+USE_L10N	backendV1/project/settings/base.py	/^USE_L10N = True$/;"	v
+USE_TZ	backendV1/project/settings/base.py	/^USE_TZ = True$/;"	v
+User	backendV1/api/model_handler/user_model_handler.py	/^from api.models.user_account.user_account_model import User$/;"	i
+User	backendV1/api/models/__init__.py	/^from api.models.user_account.user_account_model import User$/;"	i
+User	backendV1/api/models/user_account/user_account_model.py	/^class User(models.Model):$/;"	c
+User	backendV1/api/models/user_account/user_account_serializer.py	/^from .user_account_model import User$/;"	i
+User	backendV1/api/util/decorators.py	/^from api.models.user_account.user_account_model import User$/;"	i
+UserAccountSerializer	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.models.user_account.user_account_serializer import UserAccountSerializer$/;"	i
+UserAccountSerializer	backendV1/api/models/user_account/user_account_serializer.py	/^class UserAccountSerializer(serializers.ModelSerializer):$/;"	c
+UserModelHandler	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.model_handler.user_model_handler import UserModelHandler$/;"	i
+UserModelHandler	backendV1/api/managers/model_manager/model_creator.py	/^from api.model_handler.user_model_handler import UserModelHandler$/;"	i
+UserModelHandler	backendV1/api/managers/settings/preference_manager.py	/^from api.model_handler.user_model_handler import UserModelHandler$/;"	i
+UserModelHandler	backendV1/api/managers/user_activity/group/group_manager.py	/^from api.model_handler.user_model_handler import UserModelHandler$/;"	i
+UserModelHandler	backendV1/api/model_handler/user_model_handler.py	/^class UserModelHandler(ModelHandler):$/;"	c
+VerifyUserLoggedIn	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^class VerifyUserLoggedIn(APIView):$/;"	c
+ViewGroupOfUser	backendV1/api/endpoints/group/group_endpoint.py	/^class ViewGroupOfUser(APIView):$/;"	c
+WSGI_APPLICATION	backendV1/project/settings/base.py	/^WSGI_APPLICATION = 'project.wsgi.application'$/;"	v
+YELP	backendV1/api/constants/enum_constants.py	/^    YELP = "yelp"$/;"	v	class:APIType
+YelpAPIDataManager	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^from api.managers.external_api.yelp_api_data_manager import YelpAPIDataManager$/;"	i
+YelpAPIDataManager	backendV1/api/factories/api_manager_factory.py	/^from api.managers.external_api.yelp_api_data_manager import YelpAPIDataManager$/;"	i
+YelpAPIDataManager	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^class YelpAPIDataManager:$/;"	c
+YelpDataConverter	backendV1/api/converter/yelp_data_converter.py	/^class YelpDataConverter(Converter):$/;"	c
+YelpDataConverter	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^from ..converter.yelp_data_converter import YelpDataConverter$/;"	i
+YelpDataConverter	backendV1/api/factories/converter_factory.py	/^from api.converter.yelp_data_converter import YelpDataConverter$/;"	i
+YelpDataConverter	backendV1/api/recommendation_algorithm/core_algorithm.py	/^from api.converter.yelp_data_converter import YelpDataConverter$/;"	i
+YelpRestaurantDTO	backendV1/api/dto/external_api_DTO/yelp_restaurant_dto.py	/^class YelpRestaurantDTO(DTO):$/;"	c
+YelpRestaurantDTO	backendV1/api/factories/dto_factory.py	/^from api.dto.external_api_DTO.yelp_restaurant_dto import YelpRestaurantDTO$/;"	i
+__call__	backendV1/api/util/decorators.py	/^            def __call__(self, *args, **kwargs):$/;"	m	class:deprecated_class.deprecated_class_wrapper.DeprecatedClassWrapper	file:
+__getattr__	backendV1/api/util/decorators.py	/^            def __getattr__(self, item):$/;"	m	class:deprecated_class.deprecated_class_wrapper.DeprecatedClassWrapper	file:
+__init__	backendV1/api/converter/converter.py	/^    def __init__(self):$/;"	m	class:Converter
+__init__	backendV1/api/dto/external_api_DTO/yelp_restaurant_dto.py	/^    def __init__(self):$/;"	m	class:YelpRestaurantDTO
+__init__	backendV1/api/dto/group_DTO/request_create_group_dto.py	/^    def __init__(self):$/;"	m	class:RequestCreateGroupDTO
+__init__	backendV1/api/dto/group_DTO/request_join_group_DTO.py	/^    def __init__(self):$/;"	m	class:RequestJoinGroupDTO
+__init__	backendV1/api/dto/group_DTO/response_group_detail_dto.py	/^    def __init__(self, id, created, name, users):$/;"	m	class:ResponseGroupDetailDTO
+__init__	backendV1/api/dto/group_DTO/response_group_dto.py	/^    def __init__(self):$/;"	m	class:ResponseGroupDTO
+__init__	backendV1/api/dto/settings_DTO/preference_settings_DTO.py	/^    def __init__(self):$/;"	m	class:PreferenceSettingsDTO
+__init__	backendV1/api/dto/success_failure_DTO/response_success_DTO.py	/^    def __init__(self, message):$/;"	m	class:ResponseSuccessDTO
+__init__	backendV1/api/dto/suggestion_DTO/response_restaurant_dto.py	/^    def __init__(self):$/;"	m	class:ResponseRestaurantDTO
+__init__	backendV1/api/dto/user_detail_dto/response_user_detail_dto.py	/^    def __init__(self, id, name, preferences, groups):$/;"	m	class:ResponseUserDetailDTO
+__init__	backendV1/api/dto/user_detail_dto/response_user_dto.py	/^    def __init__(self):$/;"	m	class:ResponseUserDTO
+__init__	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^    def __init__(self):$/;"	m	class:YelpAPIDataManager
+__init__	backendV1/api/managers/settings/preference_manager.py	/^    def __init__(self):$/;"	m	class:PreferenceManager
+__init__	backendV1/api/managers/user_activity/group/group_manager.py	/^    def __init__(self):$/;"	m	class:GroupManager
+__init__	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^    def __init__(self):$/;"	m	class:SuggestionManager
+__init__	backendV1/api/model_handler/group_model_handler.py	/^    def __init__(self):$/;"	m	class:GroupModelHandler
+__init__	backendV1/api/model_handler/model_handler.py	/^    def __init__(self):$/;"	m	class:ModelHandler
+__init__	backendV1/api/model_handler/preference_model_handler.py	/^    def __init__(self):$/;"	m	class:PreferenceModelHandler
+__init__	backendV1/api/model_handler/user_model_handler.py	/^    def __init__(self):$/;"	m	class:UserModelHandler
+__init__	backendV1/api/models/option/suggestion_option.py	/^    def __init__(self, sorting_option=SortingOption.SCORE, max_number=50):$/;"	m	class:SuggestionOption
+__init__	backendV1/api/recommendation_algorithm/core_algorithm.py	/^    def __init__(self, converter=YelpDataConverter):$/;"	m	class:CoreAlgorithm
+__init__	backendV1/api/util/decorators.py	/^            def __init__(self, *args, **kwargs):$/;"	m	class:deprecated_class.deprecated_class_wrapper.DeprecatedClassWrapper
+__new__	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^    def __new__(cls):$/;"	m	class:Logger	file:
+__repr__	backendV1/api/util/decorators.py	/^            def __repr__(self):$/;"	m	class:deprecated_class.deprecated_class_wrapper.DeprecatedClassWrapper	file:
+__setattr__	backendV1/api/util/decorators.py	/^            def __setattr__(self, key, value):$/;"	m	class:deprecated_class.deprecated_class_wrapper.DeprecatedClassWrapper	file:
+_singleton_logger_instance	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^    _singleton_logger_instance = None$/;"	v	class:Logger
+access_token_required	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.util.decorators import access_token_required$/;"	i
+access_token_required	backendV1/api/endpoints/group/group_endpoint.py	/^from api.util.decorators import access_token_required$/;"	i
+access_token_required	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.util.decorators import access_token_required$/;"	i
+access_token_required	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.util.decorators import access_token_required$/;"	i
+access_token_required	backendV1/api/util/decorators.py	/^def access_token_required(func):$/;"	f
+activate_virtualenv	backendV1/bin/ppm.sh	/^function activate_virtualenv() {$/;"	f
+add_group_of_groupid_to_user_instance	backendV1/api/managers/user_activity/group/group_manager.py	/^    def add_group_of_groupid_to_user_instance(self, user_instance=None, groupid=""):$/;"	m	class:GroupManager
+add_group_of_groupid_to_user_of_username	backendV1/api/managers/user_activity/group/group_manager.py	/^    def add_group_of_groupid_to_user_of_username(self, username="", groupid=""):$/;"	m	class:GroupManager
+add_group_to_user	backendV1/api/model_handler/user_model_handler.py	/^    def add_group_to_user(self, user_instance=None, group_instance=None):$/;"	m	class:UserModelHandler
+add_group_to_user_of_user_id	backendV1/api/model_handler/user_model_handler.py	/^    def add_group_to_user_of_user_id(self, userid, group_instance):$/;"	m	class:UserModelHandler
+add_group_to_user_of_userid	backendV1/api/managers/user_activity/group/group_manager.py	/^    def add_group_to_user_of_userid(self, userid="", group_instance=None):$/;"	m	class:GroupManager
+add_group_to_user_of_username	backendV1/api/managers/user_activity/group/group_manager.py	/^    def add_group_to_user_of_username(self, username="", group_instance=None):$/;"	m	class:GroupManager
+add_group_to_user_of_username	backendV1/api/model_handler/user_model_handler.py	/^    def add_group_to_user_of_username(self, username, group_instance):$/;"	m	class:UserModelHandler
+admin	backendV1/api/admin.py	/^from django.contrib import admin$/;"	i
+admin	backendV1/project/urls.py	/^from django.contrib import admin$/;"	i
+api	backendV1/__init__.py	/^from . import api$/;"	i
+api_key	backendV1/api/config/yelp_api_config.py	/^api_key = 'EcG7QH-0Zvv-xft8StgjxgYrSWmOGfvMU07K2kqNAh2fNAoygJ7vCc3gyrzE_iP8V6jeeaPxa8PwA6uEaWw8Mj8oTjpfKKyA-LBOM-xOjTEPKOWsOEpEWPDO8FNAW3Yx'$/;"	v
+application	backendV1/project/wsgi.py	/^application = get_wsgi_application()$/;"	v
+backendV1	__init__.py	/^from . import backendV1/;"	i
+base_path	backendV1/api/third_party_libraries/logger/sqlite_handler.py	/^base_path = os.path.dirname(__file__)$/;"	v
+code	backendV1/api/models/snippet/models.py	/^    code = models.TextField()$/;"	v	class:Snippet
+code	backendV1/api/models/snippet/serializer.py	/^    code = serializers.CharField(style={'base_template': 'textarea.html'})$/;"	v	class:SnippetSerializer
+content_type	backendV1/api/config/yelp_api_config.py	/^content_type = 'application\/json'$/;"	v
+convert_price_to_score	backendV1/api/converter/yelp_data_converter.py	/^    def convert_price_to_score(self):$/;"	m	class:YelpDataConverter
+copy	backendV1/api/dto/parent_DTO/DTO.py	/^from copy import copy$/;"	i
+coreAlgorithm	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^    coreAlgorithm = CoreAlgorithm$/;"	v	class:SuggestionManager
+create	backendV1/api/models/snippet/serializer.py	/^    def create(self, validated_data):$/;"	m	class:SnippetSerializer
+create_group_and_add_to_user_of_userid	backendV1/api/managers/user_activity/group/group_manager.py	/^    def create_group_and_add_to_user_of_userid(self, userid="", groupname=""):$/;"	m	class:GroupManager
+create_group_and_add_to_user_of_username	backendV1/api/managers/user_activity/group/group_manager.py	/^    def create_group_and_add_to_user_of_username(self, username="", groupname=""):$/;"	m	class:GroupManager
+create_group_of_groupname_and_return_instance	backendV1/api/managers/model_manager/model_creator.py	/^    def create_group_of_groupname_and_return_instance(cls, groupname):$/;"	m	class:ModelCreator
+create_user_with_default_settings_and_return_instance	backendV1/api/managers/model_manager/model_creator.py	/^    def create_user_with_default_settings_and_return_instance(cls, username):$/;"	m	class:ModelCreator
+created	backendV1/api/models/group/group_model.py	/^    created = models.DateField(auto_now_add=True)$/;"	v	class:Group
+created	backendV1/api/models/snippet/models.py	/^    created = models.DateTimeField(auto_now_add=True)$/;"	v	class:Snippet
+critical	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^    def critical(self, message):$/;"	m	class:Logger
+datetime	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^import datetime$/;"	i
+db	backendV1/api/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+debug	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^    def debug(self, message):$/;"	m	class:Logger
+default_code	backendV1/api/exceptions/api_auth_exceptions.py	/^    default_code = 'invalid access token provided'/;"	v	class:APIInvalidateAccessTokenException
+default_code	backendV1/api/exceptions/api_database_exceptions.py	/^    default_code = 'fail to delete data from database'/;"	v	class:APIDatabaseDeleteFailedException
+default_code	backendV1/api/exceptions/api_database_exceptions.py	/^    default_code = 'fail to get data from database'$/;"	v	class:APIDatabaseRetrieveFailedException
+default_code	backendV1/api/exceptions/api_database_exceptions.py	/^    default_code = 'fail to save data into database'$/;"	v	class:APIDatabaseSaveFailedException
+default_code	backendV1/api/exceptions/api_database_exceptions.py	/^    default_code = 'fail to update data from database'$/;"	v	class:APIDatabaseUpdateFailedException
+delete	backendV1/api/endpoints/group/group_endpoint.py	/^    def delete(self, request, format=None):$/;"	m	class:LeaveGroup
+delete	backendV1/api/endpoints/snippet_views.py	/^    def delete(self, request, pk, format=None):$/;"	m	class:SnippetDetail
+deletion	backendV1/api/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+dependencies	backendV1/api/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+deprecated_class	backendV1/api/models/group/group_serializer.py	/^from api.util.decorators import deprecated_class$/;"	i
+deprecated_class	backendV1/api/models/preference/preference_serializer.py	/^from api.util.decorators import deprecated_class$/;"	i
+deprecated_class	backendV1/api/models/user_account/user_account_serializer.py	/^from api.util.decorators import deprecated_class$/;"	i
+deprecated_class	backendV1/api/util/decorators.py	/^def deprecated_class(message):$/;"	f
+deprecated_class_wrapper	backendV1/api/util/decorators.py	/^    def deprecated_class_wrapper(cls):$/;"	f	function:deprecated_class
+deprecated_function	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^from api.util.decorators import deprecated_function$/;"	i
+deprecated_function	backendV1/api/managers/user_activity/group/group_manager.py	/^from api.util.decorators import deprecated_function$/;"	i
+deprecated_function	backendV1/api/util/decorators.py	/^def deprecated_function(message):$/;"	f
+deprecated_function	backendV1/api/util/dto_util_functions.py	/^from api.util.decorators import deprecated_function$/;"	i
+deprecated_function_wrapper	backendV1/api/util/decorators.py	/^    def deprecated_function_wrapper(func):$/;"	f	function:deprecated_function
+deprecated_function_wrapper_wrapper	backendV1/api/util/decorators.py	/^        def deprecated_function_wrapper_wrapper(*args, **kwargs):$/;"	f	function:deprecated_function.deprecated_function_wrapper
+deserialize	backendV1/api/dto/parent_DTO/DTO.py	/^    def deserialize(self, request):$/;"	m	class:DTO
+deserialize	backendV1/api/dto/parent_DTO/responseDTO.py	/^    def deserialize(self, request_dict):$/;"	m	class:ResponseDTO
+deserialize_dict_list	backendV1/api/managers/dto/dto_manager.py	/^    def deserialize_dict_list(self, data=None, DTO=None):$/;"	m	class:DTOManager
+deserialize_dictionary	backendV1/api/dto/parent_DTO/DTO.py	/^    def deserialize_dictionary(self, dict_data_to_deserialize):$/;"	m	class:DTO
+django	backendV1/api/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+dtoManager	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    dtoManager = DTOManager$/;"	v	class:ShowUserDetails
+dtoManager	backendV1/api/endpoints/group/group_endpoint.py	/^    dtoManager = DTOManager$/;"	v	class:GetGroupsByUsername
+dtoManager	backendV1/api/endpoints/group/group_endpoint.py	/^    dtoManager = DTOManager$/;"	v	class:ListAllGroups
+dtoManager	backendV1/api/endpoints/group/group_endpoint.py	/^    dtoManager = DTOManager$/;"	v	class:ListUsersInGroup
+dtoManager	backendV1/api/endpoints/group/group_endpoint.py	/^    dtoManager = DTOManager$/;"	v	class:ViewGroupOfUser
+dtoManager	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^    dtoManager = DTOManager$/;"	v	class:Suggest
+dtoManager	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^    dtoManager = DTOManager$/;"	v	class:SuggestionManager
+echo_help_line	backendV1/bin/ppm.sh	/^function echo_help_line() {$/;"	f
+echo_newline	backendV1/bin/ppm.sh	/^function echo_newline() {$/;"	f
+error	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^    def error(self, message):$/;"	m	class:Logger
+error_if_argument_is_default	backendV1/api/managers/dto/dto_manager.py	/^from api.util.util_functions import error_if_argument_is_default$/;"	i
+error_if_argument_is_default	backendV1/api/managers/user_activity/group/group_manager.py	/^from api.util.util_functions import error_if_argument_is_default$/;"	i
+error_if_argument_is_default	backendV1/api/model_handler/user_model_handler.py	/^from api.util.util_functions import error_if_argument_is_default$/;"	i
+error_if_argument_is_default	backendV1/api/util/dto_util_functions.py	/^from api.util.util_functions import error_if_argument_is_default$/;"	i
+error_if_argument_is_default	backendV1/api/util/util_functions.py	/^def error_if_argument_is_default(default, arg):$/;"	f
+execute_from_command_line	backendV1/manage.py	/^        from django.core.management import execute_from_command_line$/;"	i
+field	backendV1/api/migrations/0001_initial.py	/^            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='api.Preferences'),$/;"	v	class:Migration
+fields	backendV1/api/migrations/0001_initial.py	/^            fields=[$/;"	v	class:Migration
+fields	backendV1/api/models/group/group_serializer.py	/^        fields = ('id', 'created', 'name')/;"	v	class:GroupSerializer.Meta
+fields	backendV1/api/models/preference/preference_serializer.py	/^        fields = ('id', 'food_spicy', 'food_vegan', 'food_vegetarian', 'place_loud')/;"	v	class:PreferenceSettingsSerializer.Meta
+fields	backendV1/api/models/user_account/user_account_serializer.py	/^        fields = ('id', 'name', 'preferences', 'groups')$/;"	v	class:UserAccountSerializer.Meta
+food_spicy	backendV1/api/models/preference/preference_model.py	/^    food_spicy = models.IntegerField(choices=PREFERENCE_CHOICES, default=0)$/;"	v	class:Preferences
+food_vegan	backendV1/api/models/preference/preference_model.py	/^    food_vegan = models.IntegerField(choices=PREFERENCE_CHOICES, default=0)$/;"	v	class:Preferences
+food_vegetarian	backendV1/api/models/preference/preference_model.py	/^    food_vegetarian = models.IntegerField(choices=PREFERENCE_CHOICES, default=0)$/;"	v	class:Preferences
+get	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:GetUserList
+get	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:ShowUserDetails
+get	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:VerifyUserLoggedIn
+get	backendV1/api/endpoints/group/group_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:GetGroupsByUsername
+get	backendV1/api/endpoints/group/group_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:ListAllGroups
+get	backendV1/api/endpoints/group/group_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:ListUsersInGroup
+get	backendV1/api/endpoints/group/group_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:ViewGroupOfUser
+get	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:PreferenceSettings
+get	backendV1/api/endpoints/snippet_views.py	/^    def get(self, request, format=None):$/;"	m	class:SnippetList
+get	backendV1/api/endpoints/snippet_views.py	/^    def get(self, request, pk, format=None):$/;"	m	class:SnippetDetail
+get	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^    def get(self, request):$/;"	m	class:SuggestRestaurants
+get	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^    def get(self, request, format=None):$/;"	m	class:Suggest
+get_all_group_instances_by_username	backendV1/api/model_handler/user_model_handler.py	/^    def get_all_group_instances_by_username(self, username):$/;"	m	class:UserModelHandler
+get_all_groups	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_all_groups(self):$/;"	m	class:GroupManager
+get_all_groups	backendV1/api/model_handler/group_model_handler.py	/^    def get_all_groups(self):$/;"	m	class:GroupModelHandler
+get_all_lexers	backendV1/api/models/snippet/models.py	/^from pygments.lexers import get_all_lexers$/;"	i
+get_all_styles	backendV1/api/models/snippet/models.py	/^from pygments.styles import get_all_styles$/;"	i
+get_all_users	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_all_users(self):$/;"	m	class:GroupManager
+get_all_users	backendV1/api/model_handler/user_model_handler.py	/^    def get_all_users(self):$/;"	m	class:UserModelHandler
+get_api_manager_instance	backendV1/api/factories/api_manager_factory.py	/^    def get_api_manager_instance(cls, api_type):$/;"	m	class:APIManagerFactory
+get_api_type	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^    def get_api_type(self, api_type_from_query):$/;"	m	class:Suggest
+get_best_food_type	backendV1/api/recommendation_algorithm/core_algorithm.py	/^    def get_best_food_type(self, group_instance):$/;"	m	class:CoreAlgorithm
+get_best_location_of_group	backendV1/api/recommendation_algorithm/core_algorithm.py	/^    def get_best_location_of_group(self, group_instance):$/;"	m	class:CoreAlgorithm
+get_best_radius_of_group	backendV1/api/recommendation_algorithm/core_algorithm.py	/^    def get_best_radius_of_group(self, group_instance):$/;"	m	class:CoreAlgorithm
+get_body_field_value_from	backendV1/api/endpoints/group/group_endpoint.py	/^from api.util.util_functions import get_body_field_value_from$/;"	i
+get_body_field_value_from	backendV1/api/util/util_functions.py	/^def get_body_field_value_from(request, body_field_name=None):$/;"	f
+get_business_hours	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^    def get_business_hours(self, id):$/;"	m	class:YelpAPIDataManager
+get_converter_instance_of	backendV1/api/factories/converter_factory.py	/^    def get_converter_instance_of(cls, api_type):$/;"	m	class:ConverterFactory
+get_endpoint_for	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^def get_endpoint_for(path):$/;"	f
+get_env_variable	backendV1/project/settings/base.py	/^from .util import get_env_variable$/;"	i
+get_env_variable	backendV1/project/settings/util.py	/^def get_env_variable(var_name):$/;"	f
+get_group_by_groupid	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_group_by_groupid(self, groupid):$/;"	m	class:GroupManager
+get_group_by_groupid	backendV1/api/model_handler/group_model_handler.py	/^    def get_group_by_groupid(self, groupid):$/;"	m	class:GroupModelHandler
+get_group_by_groupname	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_group_by_groupname(self, groupname):$/;"	m	class:GroupManager
+get_group_by_groupname	backendV1/api/model_handler/group_model_handler.py	/^    def get_group_by_groupname(self, groupname):$/;"	m	class:GroupModelHandler
+get_group_list_by_groupname	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_group_list_by_groupname(self, groupname):$/;"	m	class:GroupManager
+get_group_list_by_groupname	backendV1/api/model_handler/group_model_handler.py	/^    def get_group_list_by_groupname(self, groupname):$/;"	m	class:GroupModelHandler
+get_group_list_of_user_by_username	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_group_list_of_user_by_username(self, username):$/;"	m	class:GroupManager
+get_headers_for	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^def get_headers_for(endpoint):$/;"	f
+get_more_business_details	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^    def get_more_business_details(self):$/;"	m	class:YelpAPIDataManager
+get_object	backendV1/api/endpoints/snippet_views.py	/^    def get_object(self, pk):$/;"	m	class:SnippetDetail
+get_option	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^    def get_option(self, sorting_option_string=None, max_number=20):$/;"	m	class:SuggestionManager
+get_params_for	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^def get_params_for(endpoint, location, args):$/;"	f
+get_preference_settings_by_id	backendV1/api/model_handler/preference_model_handler.py	/^    def get_preference_settings_by_id(self, preference_id):$/;"	m	class:PreferenceModelHandler
+get_preference_settings_by_userid	backendV1/api/managers/settings/preference_manager.py	/^    def get_preference_settings_by_userid(self, userid):$/;"	m	class:PreferenceManager
+get_preference_settings_by_username	backendV1/api/managers/settings/preference_manager.py	/^    def get_preference_settings_by_username(self, username):$/;"	m	class:PreferenceManager
+get_query_value_from	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.util.util_functions import get_query_value_from$/;"	i
+get_query_value_from	backendV1/api/endpoints/group/group_endpoint.py	/^from api.util.util_functions import get_query_value_from$/;"	i
+get_query_value_from	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.util.util_functions import get_query_value_from$/;"	i
+get_query_value_from	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.util.util_functions import get_query_value_from$/;"	i
+get_query_value_from	backendV1/api/util/util_functions.py	/^def get_query_value_from(request, query_name=None):$/;"	f
+get_response_of	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^def get_response_of(endpoint, headers, **kwargs):$/;"	f
+get_restaurant_dto_of	backendV1/api/factories/dto_factory.py	/^    def get_restaurant_dto_of(cls, api_type):$/;"	m	class:DTOFactory
+get_restaurant_info	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^    def get_restaurant_info(self, location, **kwargs):$/;"	m	class:YelpAPIDataManager
+get_restaurant_suggestions_of_group	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^    def get_restaurant_suggestions_of_group(self, groupid, api_type=APIType.YELP, option=None):$/;"	m	class:SuggestionManager
+get_scores	backendV1/api/recommendation_algorithm/core_algorithm.py	/^    def get_scores(self, restaurant_dto, option):$/;"	m	class:CoreAlgorithm
+get_serialized_data_of_group_list_by_username	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_serialized_data_of_group_list_by_username(self, username):$/;"	m	class:GroupManager
+get_type_of	backendV1/api/constants/enum_constants.py	/^    def get_type_of(cls, string):$/;"	m	class:CustomEnum
+get_user_by_name	backendV1/api/model_handler/user_model_handler.py	/^    def get_user_by_name(self, username):$/;"	m	class:UserModelHandler
+get_user_by_user_id	backendV1/api/model_handler/user_model_handler.py	/^    def get_user_by_user_id(self, userid):$/;"	m	class:UserModelHandler
+get_user_preference_id_by_user_id	backendV1/api/model_handler/user_model_handler.py	/^    def get_user_preference_id_by_user_id(self, user_id):$/;"	m	class:UserModelHandler
+get_user_preference_id_by_user_instance	backendV1/api/model_handler/user_model_handler.py	/^    def get_user_preference_id_by_user_instance(self, user_instance):$/;"	m	class:UserModelHandler
+get_users_by_group_instance	backendV1/api/model_handler/user_model_handler.py	/^    def get_users_by_group_instance(self, group_instance):$/;"	m	class:UserModelHandler
+get_users_in_the_group_by_group_id	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_users_in_the_group_by_group_id(self, group_id):$/;"	m	class:GroupManager
+get_users_in_the_group_by_group_id	backendV1/api/model_handler/group_model_handler.py	/^    def get_users_in_the_group_by_group_id(self, group_id):$/;"	m	class:GroupModelHandler
+get_users_in_the_group_by_group_instance	backendV1/api/managers/user_activity/group/group_manager.py	/^    def get_users_in_the_group_by_group_instance(self, group_instance):$/;"	m	class:GroupManager
+get_users_in_the_group_by_group_instance	backendV1/api/model_handler/group_model_handler.py	/^    def get_users_in_the_group_by_group_instance(self, group_instance):$/;"	m	class:GroupModelHandler
+get_wsgi_application	backendV1/project/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	i
+groupManager	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    groupManager = GroupManager$/;"	v	class:ShowUserDetails
+groupManager	backendV1/api/endpoints/group/group_endpoint.py	/^    groupManager = GroupManager$/;"	v	class:CreateGroup
+groupManager	backendV1/api/endpoints/group/group_endpoint.py	/^    groupManager = GroupManager$/;"	v	class:GetGroupsByUsername
+groupManager	backendV1/api/endpoints/group/group_endpoint.py	/^    groupManager = GroupManager$/;"	v	class:JoinGroup
+groupManager	backendV1/api/endpoints/group/group_endpoint.py	/^    groupManager = GroupManager$/;"	v	class:LeaveGroup
+groupManager	backendV1/api/endpoints/group/group_endpoint.py	/^    groupManager = GroupManager$/;"	v	class:ListAllGroups
+groupManager	backendV1/api/endpoints/group/group_endpoint.py	/^    groupManager = GroupManager$/;"	v	class:ListUsersInGroup
+groupManager	backendV1/api/endpoints/group/group_endpoint.py	/^    groupManager = GroupManager$/;"	v	class:ViewGroupOfUser
+groupModelHandler	backendV1/api/managers/user_activity/group/group_manager.py	/^    groupModelHandler = GroupModelHandler$/;"	v	class:GroupManager
+groupModelHandler	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^    groupModelHandler = GroupModelHandler$/;"	v	class:SuggestionManager
+group_endpoint	backendV1/api/urls.py	/^from api.endpoints.group import group_endpoint$/;"	i
+group_model_handler	backendV1/api/managers/model_manager/model_creator.py	/^    group_model_handler = GroupModelHandler()$/;"	v	class:ModelCreator
+groups	backendV1/api/models/user_account/user_account_model.py	/^    groups = models.ManyToManyField(Group, blank=False)$/;"	v	class:User
+headers	backendV1/api/config/yelp_api_config.py	/^headers = {$/;"	v
+headers	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^from api.config.yelp_api_config import headers, yelp_business_endpoint$/;"	i
+id	backendV1/api/models/group/group_model.py	/^    id = models.AutoField(primary_key=True)$/;"	v	class:Group
+id	backendV1/api/models/preference/preference_model.py	/^    id = models.AutoField(primary_key=True)$/;"	v	class:Preferences
+id	backendV1/api/models/snippet/serializer.py	/^    id = serializers.IntegerField(read_only=True)$/;"	v	class:SnippetSerializer
+id	backendV1/api/models/user_account/user_account_model.py	/^    id = models.AutoField(primary_key=True)$/;"	v	class:User
+include	backendV1/project/urls.py	/^from django.urls import path, include$/;"	i
+info	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^    def info(self, message):$/;"	m	class:Logger
+initial	backendV1/api/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+initial_sql_statement	backendV1/api/third_party_libraries/logger/sqlite_handler.py	/^initial_sql_statement = 'CREATE TABLE IF NOT EXISTS log (Log TEXT);'$/;"	v
+initialize_dependencies	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:GetUserList
+initialize_dependencies	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:ShowUserDetails
+initialize_dependencies	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:Signup
+initialize_dependencies	backendV1/api/endpoints/group/group_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:CreateGroup
+initialize_dependencies	backendV1/api/endpoints/group/group_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:GetGroupsByUsername
+initialize_dependencies	backendV1/api/endpoints/group/group_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:JoinGroup
+initialize_dependencies	backendV1/api/endpoints/group/group_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:LeaveGroup
+initialize_dependencies	backendV1/api/endpoints/group/group_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:ListAllGroups
+initialize_dependencies	backendV1/api/endpoints/group/group_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:ListUsersInGroup
+initialize_dependencies	backendV1/api/endpoints/group/group_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:ViewGroupOfUser
+initialize_dependencies	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:PreferenceSettings
+initialize_dependencies	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^    def initialize_dependencies(self):$/;"	m	class:Suggest
+initialize_dependencies	backendV1/api/managers/settings/preference_manager.py	/^    def initialize_dependencies(self):$/;"	m	class:PreferenceManager
+initialize_dependencies	backendV1/api/managers/user_activity/group/group_manager.py	/^    def initialize_dependencies(self):$/;"	m	class:GroupManager
+initialize_dependencies	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^    def initialize_dependencies(self):$/;"	m	class:SuggestionManager
+initialize_dependencies	backendV1/api/model_handler/group_model_handler.py	/^    def initialize_dependencies(self):$/;"	m	class:GroupModelHandler
+initialize_dependencies	backendV1/api/model_handler/model_handler.py	/^    def initialize_dependencies(self):$/;"	m	class:ModelHandler
+initialize_dependencies	backendV1/api/model_handler/preference_model_handler.py	/^    def initialize_dependencies(self):$/;"	m	class:PreferenceModelHandler
+initialize_dependencies	backendV1/api/model_handler/user_model_handler.py	/^    def initialize_dependencies(self):$/;"	m	class:UserModelHandler
+is_valid_bodyfield	backendV1/api/util/decorators.py	/^from api.util.util_functions import is_valid_bodyfield$/;"	i
+is_valid_bodyfield	backendV1/api/util/util_functions.py	/^def is_valid_bodyfield(body_dict, required_body_field):$/;"	f
+is_valid_querydict	backendV1/api/util/decorators.py	/^from api.util.util_functions import is_valid_querydict$/;"	i
+is_valid_querydict	backendV1/api/util/util_functions.py	/^def is_valid_querydict(querydict, required_queries):$/;"	f
+is_valid_values_in_dict	backendV1/api/util/util_functions.py	/^def is_valid_values_in_dict(dictionary, required_field):$/;"	f
+label	backendV1/api/models/preference/food_category_model.py	/^    label = models.CharField(max_length=20)$/;"	v	class:FoodCategoryDisliked
+label	backendV1/api/models/preference/food_category_model.py	/^    label = models.CharField(max_length=20)$/;"	v	class:FoodCategoryLiked
+language	backendV1/api/models/snippet/models.py	/^    language = models.CharField(choices=LANGUAGE_CHOICES, default='python', max_length=100)$/;"	v	class:Snippet
+language	backendV1/api/models/snippet/serializer.py	/^    language = serializers.ChoiceField(choices=LANGUAGE_CHOICES, default='python')$/;"	v	class:SnippetSerializer
+linenos	backendV1/api/models/snippet/models.py	/^    linenos = models.BooleanField(default=False)$/;"	v	class:Snippet
+linenos	backendV1/api/models/snippet/serializer.py	/^    linenos = serializers.BooleanField(required=False)$/;"	v	class:SnippetSerializer
+list_keys	backendV1/api/constants/enum_constants.py	/^    def list_keys(self):$/;"	m	class:CustomEnum
+meeting_time	backendV1/api/models/group/group_model.py	/^    meeting_time = models.DateTimeField(editable=True, blank=True)$/;"	v	class:Group
+migrations	backendV1/api/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+model	backendV1/api/models/group/group_serializer.py	/^        model = Group$/;"	v	class:GroupSerializer.Meta
+model	backendV1/api/models/preference/preference_serializer.py	/^        model = Preferences$/;"	v	class:PreferenceSettingsSerializer.Meta
+model	backendV1/api/models/user_account/user_account_serializer.py	/^        model = User$/;"	v	class:UserAccountSerializer.Meta
+modelCreator	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    modelCreator = ModelCreator$/;"	v	class:Signup
+modelCreator	backendV1/api/endpoints/group/group_endpoint.py	/^    modelCreator = ModelCreator$/;"	v	class:CreateGroup
+modelCreator	backendV1/api/managers/user_activity/group/group_manager.py	/^    modelCreator = ModelCreator$/;"	v	class:GroupManager
+model_name	backendV1/api/migrations/0001_initial.py	/^            model_name='foodcategorydisliked',$/;"	v	class:Migration
+model_name	backendV1/api/migrations/0001_initial.py	/^            model_name='foodcategoryliked',$/;"	v	class:Migration
+models	backendV1/api/migrations/0001_initial.py	/^from django.db import migrations, models$/;"	i
+models	backendV1/api/migrations/0001_initial.py	/^import django.db.models.deletion$/;"	i
+models	backendV1/api/models/group/group_model.py	/^from django.db import models$/;"	i
+models	backendV1/api/models/preference/food_category_model.py	/^from django.db import models$/;"	i
+models	backendV1/api/models/preference/preference_model.py	/^from django.db import models$/;"	i
+models	backendV1/api/models/snippet/models.py	/^from django.db import models$/;"	i
+models	backendV1/api/models/user_account/user_account_model.py	/^from django.db import models$/;"	i
+name	backendV1/api/apps.py	/^    name = 'api'$/;"	v	class:ApiConfig
+name	backendV1/api/migrations/0001_initial.py	/^            name='FoodCategoryDisliked',$/;"	v	class:Migration
+name	backendV1/api/migrations/0001_initial.py	/^            name='FoodCategoryLiked',$/;"	v	class:Migration
+name	backendV1/api/migrations/0001_initial.py	/^            name='Group',$/;"	v	class:Migration
+name	backendV1/api/migrations/0001_initial.py	/^            name='Preferences',$/;"	v	class:Migration
+name	backendV1/api/migrations/0001_initial.py	/^            name='Snippet',$/;"	v	class:Migration
+name	backendV1/api/migrations/0001_initial.py	/^            name='User',$/;"	v	class:Migration
+name	backendV1/api/migrations/0001_initial.py	/^            name='preferences',$/;"	v	class:Migration
+name	backendV1/api/models/group/group_model.py	/^    name = models.CharField(max_length=100, null=False, blank=False)$/;"	v	class:Group
+name	backendV1/api/models/user_account/user_account_model.py	/^    name = models.CharField(max_length=20, null=False, unique=True, blank=False)$/;"	v	class:User
+operations	backendV1/api/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+options	backendV1/api/migrations/0001_initial.py	/^            options={$/;"	v	class:Migration
+ordering	backendV1/api/models/snippet/models.py	/^        ordering = ('created',)$/;"	v	class:Snippet.Meta
+os	backendV1/api/third_party_libraries/logger/sqlite_handler.py	/^import os$/;"	i
+os	backendV1/manage.py	/^import os$/;"	i
+os	backendV1/project/settings/base.py	/^import os$/;"	i
+os	backendV1/project/settings/util.py	/^import os$/;"	i
+os	backendV1/project/wsgi.py	/^import os$/;"	i
+path	backendV1/api/urls.py	/^from django.urls import path$/;"	i
+path	backendV1/project/urls.py	/^from django.urls import path, include$/;"	i
+path_to_db	backendV1/api/third_party_libraries/logger/sqlite_handler.py	/^path_to_db = os.path.abspath(os.path.join(base_path, 'logs\/log.db'))$/;"	v
+place_loud	backendV1/api/models/preference/preference_model.py	/^    place_loud = models.IntegerField(choices=PREFERENCE_CHOICES, default=0)$/;"	v	class:Preferences
+post	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    def post(self, request, format=None):$/;"	m	class:Signup
+post	backendV1/api/endpoints/group/group_endpoint.py	/^    def post(self, request, form=None):$/;"	m	class:JoinGroup
+post	backendV1/api/endpoints/group/group_endpoint.py	/^    def post(self, request, format=None):$/;"	m	class:CreateGroup
+post	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^    def post(self, request, format=None):$/;"	m	class:PreferenceSettings
+post	backendV1/api/endpoints/snippet_views.py	/^    def post(self, request, format=None):$/;"	m	class:SnippetList
+preferenceManager	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^    preferenceManager = PreferenceManager$/;"	v	class:PreferenceSettings
+preferenceModelHandler	backendV1/api/managers/settings/preference_manager.py	/^    preferenceModelHandler = PreferenceModelHandler$/;"	v	class:PreferenceManager
+preferenceModelManager	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    preferenceModelManager = PreferenceModelHandler$/;"	v	class:ShowUserDetails
+preference_model_handler	backendV1/api/managers/model_manager/model_creator.py	/^    preference_model_handler = PreferenceModelHandler()$/;"	v	class:ModelCreator
+preference_settings_endpoint	backendV1/api/urls.py	/^from api.endpoints.settings import preference_settings_endpoint$/;"	i
+preferences	backendV1/api/models/preference/food_category_model.py	/^    preferences = models.ForeignKey(Preferences, on_delete=models.CASCADE)$/;"	v	class:FoodCategoryLiked
+preferences	backendV1/api/models/preference/food_category_model.py	/^    preferences = models.ForeignKey(Preferences, on_delete=models.CASCADE)/;"	v	class:FoodCategoryDisliked
+preferences	backendV1/api/models/user_account/user_account_model.py	/^    preferences = models.OneToOneField(Preferences, on_delete=models.CASCADE, null=False)$/;"	v	class:User
+project	backendV1/__init__.py	/^from . import project$/;"	i
+prototype_argument_wrapper	backendV1/api/util/decorators.py	/^        def prototype_argument_wrapper(*args, **kwargs):$/;"	f	function:prototype_function.prototype_function_wrapper
+prototype_function	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^from api.util.decorators import prototype_function$/;"	i
+prototype_function	backendV1/api/model_handler/group_model_handler.py	/^from api.util.decorators import prototype_function$/;"	i
+prototype_function	backendV1/api/recommendation_algorithm/core_algorithm.py	/^from api.util.decorators import prototype_function$/;"	i
+prototype_function	backendV1/api/util/decorators.py	/^def prototype_function(message=""):$/;"	f
+prototype_function_wrapper	backendV1/api/util/decorators.py	/^    def prototype_function_wrapper(func):$/;"	f	function:prototype_function
+put	backendV1/api/endpoints/snippet_views.py	/^    def put(self, request, pk, format=None):$/;"	m	class:SnippetDetail
+requests	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^import requests$/;"	i
+required_body_field	backendV1/api/endpoints/group/group_endpoint.py	/^from api.util.decorators import required_body_field$/;"	i
+required_body_field	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from api.util.decorators import required_body_field$/;"	i
+required_body_field	backendV1/api/util/decorators.py	/^def required_body_field(*body_fields):$/;"	f
+required_query_params	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from api.util.decorators import required_query_params$/;"	i
+required_query_params	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from api.util.decorators import required_query_params$/;"	i
+required_query_params	backendV1/api/util/decorators.py	/^def required_query_params(*queries):$/;"	f
+rest_method_wrapper	backendV1/api/util/decorators.py	/^    def rest_method_wrapper(func):$/;"	f	function:required_body_field
+rest_method_wrapper	backendV1/api/util/decorators.py	/^    def rest_method_wrapper(func):$/;"	f	function:required_query_params
+return_default_preference	backendV1/api/model_handler/preference_model_handler.py	/^    def return_default_preference(self):$/;"	m	class:PreferenceModelHandler
+return_group_instance_of_groupname	backendV1/api/model_handler/group_model_handler.py	/^    def return_group_instance_of_groupname(self, groupname):$/;"	m	class:GroupModelHandler
+return_preference_with_customized_settings	backendV1/api/model_handler/preference_model_handler.py	/^    def return_preference_with_customized_settings(self, food_spicy=0, food_vegan=0, food_vegetarian=0, place_loud=0):$/;"	m	class:PreferenceModelHandler
+return_user_instance_with_preference	backendV1/api/model_handler/user_model_handler.py	/^    def return_user_instance_with_preference(self, username, preference_settings):$/;"	m	class:UserModelHandler
+save	backendV1/api/models/user_account/user_account_model.py	/^    def save(self, *args, **kwargs):$/;"	m	class:User
+save_customized_preference_and_return_instance	backendV1/api/managers/model_manager/model_creator.py	/^    def save_customized_preference_and_return_instance(cls, food_spicy=0, food_vegan=0, food_vegetarian=0, place_loud=0):$/;"	m	class:ModelCreator
+save_default_preference_and_return_instance	backendV1/api/managers/model_manager/model_creator.py	/^    def save_default_preference_and_return_instance(cls):$/;"	m	class:ModelCreator
+save_group	backendV1/api/model_handler/group_model_handler.py	/^    def save_group(self, group_instance):$/;"	m	class:GroupModelHandler
+save_group_and_return_instance	backendV1/api/model_handler/group_model_handler.py	/^    def save_group_and_return_instance(self, groupname=""):$/;"	m	class:GroupModelHandler
+save_object	backendV1/api/model_handler/model_handler.py	/^    def save_object(self, obj):$/;"	m	class:ModelHandler
+save_preference	backendV1/api/model_handler/preference_model_handler.py	/^    def save_preference(self, preference_instance):$/;"	m	class:PreferenceModelHandler
+save_user	backendV1/api/model_handler/user_model_handler.py	/^    def save_user(self, user_instance):$/;"	m	class:UserModelHandler
+score_food_categories	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^def score_food_categories(restaurant, user):$/;"	f
+score_place_price	backendV1/api/endpoints/suggest_restaurants_endpoint.py	/^def score_place_price(restaurant, user):$/;"	f
+serialize	backendV1/api/dto/parent_DTO/DTO.py	/^    def serialize(self, instance_to_sync=None):$/;"	m	class:DTO
+serialize	backendV1/api/dto/parent_DTO/requestDTO.py	/^    def serialize(self):$/;"	m	class:RequestDTO
+serialize_list	backendV1/api/managers/dto/dto_manager.py	/^    def serialize_list(self, data=None, Response_DTO=None):$/;"	m	class:DTOManager
+serialize_list	backendV1/api/managers/user_activity/group/group_manager.py	/^from api.util.dto_util_functions import serialize_list$/;"	i
+serialize_list	backendV1/api/util/dto_util_functions.py	/^def serialize_list(data=None, Response_DTO=None):$/;"	f
+serializers	backendV1/api/models/group/group_serializer.py	/^from rest_framework import serializers$/;"	i
+serializers	backendV1/api/models/preference/preference_serializer.py	/^from rest_framework import serializers$/;"	i
+serializers	backendV1/api/models/snippet/serializer.py	/^from rest_framework import serializers$/;"	i
+serializers	backendV1/api/models/user_account/user_account_serializer.py	/^from rest_framework import serializers$/;"	i
+set_converter	backendV1/api/recommendation_algorithm/core_algorithm.py	/^    def set_converter(self, converter):$/;"	m	class:CoreAlgorithm
+set_fields	backendV1/api/dto/parent_DTO/DTO.py	/^    def set_fields(self, *fields):$/;"	m	class:DTO
+set_score	backendV1/api/dto/external_api_DTO/yelp_restaurant_dto.py	/^    def set_score(self, score):$/;"	m	class:YelpRestaurantDTO
+show_dependencies	backendV1/bin/ppm.sh	/^function show_dependencies() {$/;"	f
+show_help_clean	backendV1/bin/ppm.sh	/^function show_help_clean() {$/;"	f
+show_help_install	backendV1/bin/ppm.sh	/^function show_help_install() {$/;"	f
+show_help_install_dependency	backendV1/bin/ppm.sh	/^show_help_install_dependency() {$/;"	f
+show_help_method	backendV1/bin/ppm.sh	/^function show_help_method() {$/;"	f
+snippet_views	backendV1/api/urls.py	/^from api.endpoints import snippet_views$/;"	i
+sort_by	backendV1/api/managers/sort/sorting_manager.py	/^    def sort_by(self, sorting_option, list_to_sort):$/;"	m	class:SortingManager
+sort_by_score	backendV1/api/managers/sort/sorting_manager.py	/^    def sort_by_score(self, list_to_sort):$/;"	m	class:SortingManager
+sortingManager	backendV1/api/managers/user_activity/suggestion/suggestion_manager.py	/^    sortingManager = SortingManager$/;"	v	class:SuggestionManager
+sqlite3	backendV1/api/third_party_libraries/logger/sqlite_handler.py	/^import sqlite3$/;"	i
+status	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^from rest_framework import status$/;"	i
+status	backendV1/api/endpoints/group/group_endpoint.py	/^from rest_framework import status$/;"	i
+status	backendV1/api/endpoints/settings/preference_settings_endpoint.py	/^from rest_framework import status$/;"	i
+status	backendV1/api/endpoints/snippet_views.py	/^from rest_framework import status$/;"	i
+status	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^from rest_framework import status$/;"	i
+status	backendV1/api/exceptions/api_auth_exceptions.py	/^from rest_framework import status$/;"	i
+status	backendV1/api/exceptions/api_database_exceptions.py	/^from rest_framework import status$/;"	i
+status_code	backendV1/api/exceptions/api_auth_exceptions.py	/^    status_code = 404$/;"	v	class:APIInvalidateAccessTokenException
+status_code	backendV1/api/exceptions/api_database_exceptions.py	/^    status_code = 400$/;"	v	class:APIDatabaseDeleteFailedException
+status_code	backendV1/api/exceptions/api_database_exceptions.py	/^    status_code = 400$/;"	v	class:APIDatabaseRetrieveFailedException
+status_code	backendV1/api/exceptions/api_database_exceptions.py	/^    status_code = 400$/;"	v	class:APIDatabaseSaveFailedException
+status_code	backendV1/api/exceptions/api_database_exceptions.py	/^    status_code = 400$/;"	v	class:APIDatabaseUpdateFailedException
+style	backendV1/api/models/snippet/models.py	/^    style = models.CharField(choices=STYLE_CHOICES, default='friendly', max_length=100)$/;"	v	class:Snippet
+style	backendV1/api/models/snippet/serializer.py	/^    style = serializers.ChoiceField(choices=STYLE_CHOICES, default='friendly')$/;"	v	class:SnippetSerializer
+suggest_restaurants_endpoint	backendV1/api/urls.py	/^from api.endpoints import suggest_restaurants_endpoint$/;"	i
+suggestionManager	backendV1/api/endpoints/suggestion/suggestion_endpoint.py	/^    suggestionManager = SuggestionManager$/;"	v	class:Suggest
+suggestion_endpoint	backendV1/api/urls.py	/^from api.endpoints.suggestion import suggestion_endpoint$/;"	i
+sync_with_copied_instance	backendV1/api/dto/parent_DTO/DTO.py	/^    def sync_with_copied_instance(self, instance):$/;"	m	class:DTO
+sync_with_instance	backendV1/api/dto/parent_DTO/DTO.py	/^    def sync_with_instance(self, instance):$/;"	m	class:DTO
+sys	backendV1/manage.py	/^import sys$/;"	i
+test_logger	backendV1/api/tests/test_logger.py	/^    def test_logger(self):$/;"	m	class:TestLogger
+timezone	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^from pytz import timezone$/;"	i
+title	backendV1/api/models/snippet/models.py	/^    title = models.CharField(max_length=100, blank=True, default='')$/;"	v	class:Snippet
+title	backendV1/api/models/snippet/serializer.py	/^    title = serializers.CharField(required=False, allow_blank=True, max_length=100)$/;"	v	class:SnippetSerializer
+update	backendV1/api/models/snippet/serializer.py	/^    def update(self, instance, validated_data):$/;"	m	class:SnippetSerializer
+update_object	backendV1/api/model_handler/model_handler.py	/^    def update_object(self, obj, update_dict):$/;"	m	class:ModelHandler
+update_preference_settings	backendV1/api/model_handler/preference_model_handler.py	/^    def update_preference_settings(self, preference_settings, update_dict):$/;"	m	class:PreferenceModelHandler
+update_preference_settings_by_preference_id	backendV1/api/model_handler/preference_model_handler.py	/^    def update_preference_settings_by_preference_id(self, preference_id, update_dict):$/;"	m	class:PreferenceModelHandler
+update_preference_settings_of_userid_and_return_instance	backendV1/api/managers/settings/preference_manager.py	/^    def update_preference_settings_of_userid_and_return_instance(self, userid, update_dict):$/;"	m	class:PreferenceManager
+update_preference_settings_of_username_and_return_instance	backendV1/api/managers/settings/preference_manager.py	/^    def update_preference_settings_of_username_and_return_instance(self, username, update_dict):$/;"	m	class:PreferenceManager
+urlpatterns	backendV1/api/urls.py	/^urlpatterns = [$/;"	v
+urlpatterns	backendV1/project/urls.py	/^urlpatterns = [$/;"	v
+userModelHandler	backendV1/api/managers/settings/preference_manager.py	/^    userModelHandler = UserModelHandler$/;"	v	class:PreferenceManager
+userModelHandler	backendV1/api/managers/user_activity/group/group_manager.py	/^    userModelHandler = UserModelHandler$/;"	v	class:GroupManager
+userModelManager	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    userModelManager = UserModelHandler$/;"	v	class:GetUserList
+userModelManager	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    userModelManager = UserModelHandler$/;"	v	class:ShowUserDetails
+userModelManager	backendV1/api/endpoints/authentication/user_authentication_endpoint.py	/^    userModelManager = UserModelHandler$/;"	v	class:Signup
+user_authentication_endpoint	backendV1/api/urls.py	/^from api.endpoints.authentication import user_authentication_endpoint$/;"	i
+user_id_remove_group_instance	backendV1/api/model_handler/user_model_handler.py	/^    def user_id_remove_group_instance(self, userid=None, group_instance=None):$/;"	m	class:UserModelHandler
+user_instance_remove_group_instance	backendV1/api/model_handler/user_model_handler.py	/^    def user_instance_remove_group_instance(self, user_instance=None, group_instance=None):$/;"	m	class:UserModelHandler
+user_leave_group_of_group_instance	backendV1/api/managers/user_activity/group/group_manager.py	/^    def user_leave_group_of_group_instance(self, group_instance, user_instance):$/;"	m	class:GroupManager
+user_leave_group_of_groupid	backendV1/api/managers/user_activity/group/group_manager.py	/^    def user_leave_group_of_groupid(self, groupid, user_instance):$/;"	m	class:GroupManager
+user_model_handler	backendV1/api/managers/model_manager/model_creator.py	/^    user_model_handler = UserModelHandler()$/;"	v	class:ModelCreator
+user_name_remove_group_instance	backendV1/api/model_handler/user_model_handler.py	/^    def user_name_remove_group_instance(self, username=None, group_instance=None):$/;"	m	class:UserModelHandler
+user_of_username_leave_group_of_groupid	backendV1/api/managers/user_activity/group/group_manager.py	/^    def user_of_username_leave_group_of_groupid(self, groupid, username):$/;"	m	class:GroupManager
+validate	backendV1/api/constants/enum_constants.py	/^    def validate(self, enum_value):$/;"	m	class:CustomEnum
+validator	backendV1/api/util/decorators.py	/^        def validator(*args, **kwargs):$/;"	f	function:required_body_field.rest_method_wrapper
+validator	backendV1/api/util/decorators.py	/^        def validator(*args, **kwargs):$/;"	f	function:required_query_params.rest_method_wrapper
+validator	backendV1/api/util/decorators.py	/^    def validator(*args, **kwargs):$/;"	f	function:access_token_required
+warning	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^    def warning(self, message):$/;"	m	class:Logger
+write_log	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^    def write_log(self, message, log_level):$/;"	m	class:Logger
+write_log_to_sqlite	backendV1/api/third_party_libraries/logger/singleton_logger.py	/^from api.third_party_libraries.logger.sqlite_handler import write_log_to_sqlite$/;"	i
+write_log_to_sqlite	backendV1/api/third_party_libraries/logger/sqlite_handler.py	/^def write_log_to_sqlite(log_message):$/;"	f
+yelp_business_endpoint	backendV1/api/config/yelp_api_config.py	/^yelp_business_endpoint = 'https:\/\/api.yelp.com\/v3\/businesses\/'/;"	v
+yelp_business_endpoint	backendV1/api/managers/external_api/yelp_api_data_manager.py	/^from api.config.yelp_api_config import headers, yelp_business_endpoint$/;"	i
