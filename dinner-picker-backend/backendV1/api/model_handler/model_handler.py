@@ -3,9 +3,7 @@ Model Handler
 Discuss: All the logic that uses django database operation should be in this model handler.
             *All the database exceptions are handled in methods here.
             Probably it will be too long to manage later, then we can create child classes like
-            UserModelHandler, PreferenceSettingsModelHandler, and etc.
-
-@author: SangBin Cho
+            UserModelHandler, PreferenceSettingsModelHandler, and etc.s
 """
 from django.db.models import Model
 

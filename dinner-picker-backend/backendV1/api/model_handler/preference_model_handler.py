@@ -1,8 +1,6 @@
 """
 Preference Model Handler
 Discuss: In charge of preference Save, Get, Delete, Update operations
-
-@author: SangBin Cho
 """
 from api.model_handler.model_handler import ModelHandler
 from api.models.preference.preference_model import Preferences

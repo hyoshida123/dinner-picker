@@ -1,8 +1,6 @@
 """
 User Model Handler
 Discuss: In charge of Save, Get, Delete, Update operations of User model.
-
-@author: SangBin Cho
 """
 
 from api.model_handler.model_handler import ModelHandler

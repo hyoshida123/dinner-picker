@@ -1,8 +1,6 @@
 """
 ModelCreator
 In charge of creating models.
-
-@author: SangBin Cho
 """
 from api.model_handler.preference_model_handler import PreferenceModelHandler
 from api.model_handler.user_model_handler import UserModelHandler

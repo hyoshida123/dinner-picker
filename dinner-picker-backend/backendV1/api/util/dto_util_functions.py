@@ -1,7 +1,5 @@
 """
 DTO Util Functions File has all the utility functions for processing DTO.
-
-@author: SangBin Cho
 """
 from django.db.models.query import QuerySet
 

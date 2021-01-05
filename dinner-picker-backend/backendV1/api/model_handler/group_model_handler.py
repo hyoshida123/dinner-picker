@@ -1,8 +1,6 @@
 """
 Group Model Handler
 Discuss: In charge of group Save, Get, Delete, Update operations
-
-@author: SangBin Cho
 """
 from api.model_handler.model_handler import ModelHandler
 from api.models.group.group_model import Group

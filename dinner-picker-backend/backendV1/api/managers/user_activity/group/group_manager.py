@@ -1,7 +1,5 @@
 """
 Group Manager
-
-@author: SangBin Cho
 """
 from api.managers.model_manager.model_creator import ModelCreator
 from api.model_handler.group_model_handler import GroupModelHandler
